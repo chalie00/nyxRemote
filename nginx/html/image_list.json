@@ -1,0 +1,6 @@
+{
+  "config_format": 1,
+  "images": [
+    "nyx_upgrade/image.json"
+  ]
+}
