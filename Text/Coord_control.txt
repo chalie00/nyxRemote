@@ -1,0 +1,500 @@
+Control Identifiers:
+
+Dialog - 'NyxRemote_230516'    (L2080, T75, R3680, B975)
+['NyxRemote_230516Dialog', 'NyxRemote_230516', 'Dialog']
+child_window(title="NyxRemote_230516", auto_id="MainWindow", control_type="Window")
+   | 
+   | TitleBar - ''    (L2096, T47, R3680, B75)
+   | ['TitleBar']
+   |    | 
+   |    | Menu - '시스템'    (L2080, T52, R2102, B74)
+   |    | ['Menu', '시스템', '시스템Menu', '시스템0', '시스템1', 'Menu0', 'Menu1']
+   |    | child_window(title="시스템", auto_id="MenuBar", control_type="MenuBar")
+   |    |    | 
+   |    |    | MenuItem - '시스템'    (L2080, T52, R2102, B74)
+   |    |    | ['시스템MenuItem', 'MenuItem', '시스템2']
+   |    |    | child_window(title="시스템", control_type="MenuItem")
+   |    | 
+   |    | Button - '최소화'    (L3541, T45, R3588, B75)
+   |    | ['최소화', 'Button', '최소화Button', 'Button0', 'Button1']
+   |    | child_window(title="최소화", control_type="Button")
+   |    | 
+   |    | Button - '최대화'    (L3588, T45, R3634, B75)
+   |    | ['최대화', 'Button2', '최대화Button']
+   |    | child_window(title="최대화", control_type="Button")
+   |    | 
+   |    | Button - '닫기'    (L3634, T45, R3681, B75)
+   |    | ['Button3', '닫기Button', '닫기']
+   |    | child_window(title="닫기", control_type="Button")
+   | 
+   | GroupBox - ''    (L2080, T75, R3680, B975)
+   | ['GroupBox', 'GroupBox0', 'GroupBox1']
+   | child_window(auto_id="MainWindow.centralwidget", control_type="Group")
+   |    | 
+   |    | GroupBox - ''    (L2092, T111, R3134, B733)
+   |    | ['GroupBox2']
+   |    | child_window(auto_id="MainWindow.centralwidget.groupDrawImage", control_type="Group")
+   |    |    | 
+   |    |    | GroupBox - ''    (L2092, T111, R3133, B732)
+   |    |    | ['GroupBox3']
+   |    |    | child_window(auto_id="MainWindow.centralwidget.groupDrawImage.gridLayoutWidget", control_type="Group")
+   |    |    |    | 
+   |    |    |    | GroupBox - ''    (L2092, T111, R3133, B732)
+   |    |    |    | ['GroupBox4']
+   |    |    |    | child_window(auto_id="MainWindow.centralwidget.groupDrawImage.gridLayoutWidget.openGLWidget_DisplayImage", control_type="Group")
+   |    |    |    |    | 
+   |    |    |    |    | GroupBox - ''    (L2092, T111, R3134, B733)
+   |    |    |    |    | ['GroupBox5']
+   |    | 
+   |    | GroupBox - ''    (L2090, T735, R3672, B970)
+   |    | ['GroupBox6']
+   |    | child_window(auto_id="MainWindow.centralwidget.groupBox", control_type="Group")
+   |    |    | 
+   |    |    | Edit - '[2023-11-15 11:31:03:503] [UDP S] NYX.GET#Where_is_NYX\n[2023-11-15 11:31:03:553] [UDP L] NYX.ACK#I_am_NYX=00:14:2D:67:D5:06;192.168.22.234;255.255.255.0;192.168.22.1;8.8.8.8;1.1.1.1;STATIC;NYX-SC640R;C-OPF40150300SD;20231106;1.08.a; NYX Test;80;39190;39290;8554/test;8554/test;8554/test\n[2023-11-15 11:31:39:289] [TCP L] NYX.ACK#cool_time=249689&infr_time=249842\n[2023-11-15 11:32:39:299] [TCP L] NYX.ACK#cool_time=249690&infr_time=249843\n[2023-11-15 11:33:39:291] [TCP L] NYX.ACK#cool_time=249691&infr_time=249844\n[2023-11-15 11:34:39:301] [TCP L] NYX.ACK#cool_time=249692&infr_time=249845'    (L2093, T738, R3598, B967)
+   |    |    | ['Edit', 'Edit0', 'Edit1']
+   |    |    | child_window(title="[2023-11-15 11:31:03:503] [UDP S] NYX.GET#Where_is_NYX\n[2023-11-15 11:31:03:553] [UDP L] NYX.ACK#I_am_NYX=00:14:2D:67:D5:06;192.168.22.234;255.255.255.0;192.168.22.1;8.8.8.8;1.1.1.1;STATIC;NYX-SC640R;C-OPF40150300SD;20231106;1.08.a; NYX Test;80;39190;39290;8554/test;8554/test;8554/test\n[2023-11-15 11:31:39:289] [TCP L] NYX.ACK#cool_time=249689&infr_time=249842\n[2023-11-15 11:32:39:299] [TCP L] NYX.ACK#cool_time=249690&infr_time=249843\n[2023-11-15 11:33:39:291] [TCP L] NYX.ACK#cool_time=249691&infr_time=249844\n[2023-11-15 11:34:39:301] [TCP L] NYX.ACK#cool_time=249692&infr_time=249845", auto_id="MainWindow.centralwidget.groupBox.editPacketView", control_type="Edit")
+   |    |    |    | 
+   |    |    |    | GroupBox - ''    (L2095, T740, R3579, B948)
+   |    |    |    | ['GroupBox7']
+   |    |    |    | child_window(auto_id="MainWindow.centralwidget.groupBox.editPacketView.qt_scrollarea_viewport", control_type="Group")
+   |    |    |    | 
+   |    |    |    | GroupBox - ''    (L2095, T948, R3579, B965)
+   |    |    |    | ['GroupBox8']
+   |    |    |    | child_window(auto_id="MainWindow.centralwidget.groupBox.editPacketView.qt_scrollarea_hcontainer", control_type="Group")
+   |    |    |    |    | 
+   |    |    |    |    | ScrollBar - ''    (L2095, T948, R3579, B965)
+   |    |    |    |    | ['ScrollBar', 'ScrollBar0', 'ScrollBar1']
+   |    |    |    | 
+   |    |    |    | GroupBox - ''    (L3579, T740, R3596, B948)
+   |    |    |    | ['A.F ROIGroupBox', 'GroupBox9']
+   |    |    |    | child_window(auto_id="MainWindow.centralwidget.groupBox.editPacketView.qt_scrollarea_vcontainer", control_type="Group")
+   |    |    |    |    | 
+   |    |    |    |    | ScrollBar - ''    (L3579, T740, R3596, B948)
+   |    |    |    |    | ['ScrollBar2', 'A.F ROIScrollBar']
+   |    |    | 
+   |    |    | Button - 'Clear'    (L3604, T767, R3669, B789)
+   |    |    | ['ClearButton', 'Button4', 'Clear']
+   |    |    | child_window(title="Clear", auto_id="MainWindow.centralwidget.groupBox.btnPacketViewClear", control_type="Button")
+   |    |    | 
+   |    |    | CheckBox - 'Time'    (L3604, T739, R3653, B759)
+   |    |    | ['TimeCheckBox', 'CheckBox', 'Time', 'CheckBox0', 'CheckBox1']
+   |    |    | child_window(title="Time", auto_id="MainWindow.centralwidget.groupBox.checkPacketViewTime", control_type="CheckBox")
+   |    | 
+   |    | Button - 'Capture'    (L3069, T85, R3134, B109)
+   |    | ['Capture', 'CaptureButton', 'Button5']
+   |    | child_window(title="Capture", auto_id="MainWindow.centralwidget.btnVideoCapture", control_type="Button")
+   |    | 
+   |    | GroupBox - ''    (L3150, T85, R3672, B732)
+   |    | ['0GroupBox', 'GroupBox10', '0GroupBox0', '0GroupBox1']
+   |    | child_window(auto_id="MainWindow.centralwidget.tabPannel", control_type="Group")
+   |    |    | 
+   |    |    | Custom - ''    (L3152, T108, R3670, B730)
+   |    |    | ['0Custom', 'Custom']
+   |    |    | child_window(auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_stackedwidget", control_type="Custom")
+   |    |    |    | 
+   |    |    |    | GroupBox - ''    (L3152, T108, R3670, B730)
+   |    |    |    | ['0GroupBox2', 'GroupBox11']
+   |    |    |    | child_window(auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_stackedwidget.tabControl", control_type="Group")
+   |    |    |    |    | 
+   |    |    |    |    | GroupBox - 'Lens'    (L3152, T108, R3407, B220)
+   |    |    |    |    | ['LensGroupBox', 'Lens', 'GroupBox12']
+   |    |    |    |    | child_window(title="Lens", auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_stackedwidget.tabControl.groupLens", control_type="Group")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Button - 'A.F'    (L3240, T158, R3320, B180)
+   |    |    |    |    |    | ['A.FButton', 'Button6', 'A.F']
+   |    |    |    |    |    | child_window(title="A.F", auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_stackedwidget.tabControl.groupLens.btnLensAF", control_type="Button")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Button - 'Narrow'    (L3240, T131, R3320, B153)
+   |    |    |    |    |    | ['Button7', 'NarrowButton', 'Narrow']
+   |    |    |    |    |    | child_window(title="Narrow", auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_stackedwidget.tabControl.groupLens.btnLensNarrow", control_type="Button")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Button - 'Wide'    (L3240, T185, R3320, B207)
+   |    |    |    |    |    | ['Button8', 'WideButton', 'Wide']
+   |    |    |    |    |    | child_window(title="Wide", auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_stackedwidget.tabControl.groupLens.btnLensWide", control_type="Button")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Button - 'Far'    (L3157, T158, R3237, B180)
+   |    |    |    |    |    | ['Far', 'FarButton', 'Button9']
+   |    |    |    |    |    | child_window(title="Far", auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_stackedwidget.tabControl.groupLens.btnLensFar", control_type="Button")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Button - 'Near'    (L3322, T158, R3402, B180)
+   |    |    |    |    |    | ['NearButton', 'Near', 'Button10']
+   |    |    |    |    |    | child_window(title="Near", auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_stackedwidget.tabControl.groupLens.btnLensNear", control_type="Button")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - '0'    (L3157, T131, R3237, B153)
+   |    |    |    |    |    | ['0', '0Static', 'Static', '00', '01', '0Static0', '0Static1', 'Static0', 'Static1']
+   |    |    |    |    |    | child_window(title="0", auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_stackedwidget.tabControl.groupLens.labelZoomEnc", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - '0'    (L3322, T131, R3402, B153)
+   |    |    |    |    |    | ['02', '0Static2', 'Static2']
+   |    |    |    |    |    | child_window(title="0", auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_stackedwidget.tabControl.groupLens.labelFocusEnc", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - '0.00'    (L3157, T185, R3237, B207)
+   |    |    |    |    |    | ['Static3', '0.00', '0.00Static']
+   |    |    |    |    |    | child_window(title="0.00", auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_stackedwidget.tabControl.groupLens.labelFOV", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | GroupBox - 'Menu'    (L3413, T108, R3668, B220)
+   |    |    |    |    | ['Menu2', 'MenuGroupBox', 'GroupBox13']
+   |    |    |    |    | child_window(title="Menu", auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_stackedwidget.tabControl.groupMenu", control_type="Group")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Button - 'Down'    (L3501, T185, R3581, B207)
+   |    |    |    |    |    | ['Down', 'Button11', 'DownButton']
+   |    |    |    |    |    | child_window(title="Down", auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_stackedwidget.tabControl.groupMenu.btnMenuDown", control_type="Button")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Button - 'Set'    (L3501, T158, R3581, B180)
+   |    |    |    |    |    | ['SetButton', 'Set', 'Button12']
+   |    |    |    |    |    | child_window(title="Set", auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_stackedwidget.tabControl.groupMenu.btnMenuSet", control_type="Button")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Button - 'Right'    (L3583, T158, R3663, B180)
+   |    |    |    |    |    | ['RightButton', 'Right', 'Button13']
+   |    |    |    |    |    | child_window(title="Right", auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_stackedwidget.tabControl.groupMenu.btnMenuRight", control_type="Button")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Button - 'Up'    (L3501, T131, R3581, B153)
+   |    |    |    |    |    | ['UpButton', 'Up', 'Button14']
+   |    |    |    |    |    | child_window(title="Up", auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_stackedwidget.tabControl.groupMenu.btnMenuUp", control_type="Button")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Button - 'Left'    (L3418, T158, R3498, B180)
+   |    |    |    |    |    | ['LeftButton', 'Left', 'Button15']
+   |    |    |    |    |    | child_window(title="Left", auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_stackedwidget.tabControl.groupMenu.btnMenuLeft", control_type="Button")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | CheckBox - 'On/Off'    (L3418, T132, R3481, B152)
+   |    |    |    |    |    | ['On/Off', 'CheckBox2', 'On/OffCheckBox']
+   |    |    |    |    |    | child_window(title="On/Off", auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_stackedwidget.tabControl.groupMenu.checkMenuOn", control_type="CheckBox")
+   |    |    |    |    | 
+   |    |    |    |    | Edit - ''    (L3152, T698, R3601, B728)
+   |    |    |    |    | ['Zoom SpeedEdit', 'Edit2']
+   |    |    |    |    | child_window(auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_stackedwidget.tabControl.editPacket", control_type="Edit")
+   |    |    |    |    | 
+   |    |    |    |    | Button - 'Send'    (L3604, T698, R3669, B728)
+   |    |    |    |    | ['Send', 'SendButton', 'Button16']
+   |    |    |    |    | child_window(title="Send", auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_stackedwidget.tabControl.btnPacketSend", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | GroupBox - 'Infrared'    (L3152, T225, R3668, B310)
+   |    |    |    |    | ['InfraredGroupBox', 'Infrared', 'GroupBox14', 'Infrared0', 'Infrared1']
+   |    |    |    |    | child_window(title="Infrared", auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_stackedwidget.tabControl.groupInfrared", control_type="Group")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Button - 'Cali.'    (L3157, T248, R3232, B270)
+   |    |    |    |    |    | ['Button17', 'Cali.', 'Cali.Button']
+   |    |    |    |    |    | child_window(title="Cali.", auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_stackedwidget.tabControl.groupInfrared.btnCalibration", control_type="Button")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'us'    (L3632, T248, R3663, B270)
+   |    |    |    |    |    | ['us', 'Static4', 'usStatic']
+   |    |    |    |    |    | child_window(title="us", auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_stackedwidget.tabControl.groupInfrared.label", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | ComboBox - 'Infrared'    (L3311, T248, R3362, B270)
+   |    |    |    |    |    | ['InfraredComboBox', 'Infrared2', 'ComboBox', 'InfraredComboBox0', 'InfraredComboBox1', 'ComboBox0', 'ComboBox1']
+   |    |    |    |    |    | child_window(title="Infrared", auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_stackedwidget.tabControl.groupInfrared.comboOutputMode", control_type="ComboBox")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | ListBox - ''    (L0, T0, R0, B0)
+   |    |    |    |    |    |    | ['ListBox', 'ListBox0', 'ListBox1']
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'Output'    (L3252, T248, R3303, B270)
+   |    |    |    |    |    | ['OutputStatic', 'Static5', 'Output']
+   |    |    |    |    |    | child_window(title="Output", auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_stackedwidget.tabControl.groupInfrared.label_32", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'Integral'    (L3472, T248, R3543, B270)
+   |    |    |    |    |    | ['IntegralStatic', 'Integral', 'Static6']
+   |    |    |    |    |    | child_window(title="Integral", auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_stackedwidget.tabControl.groupInfrared.label_33", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | ComboBox - 'Infrared'    (L3412, T248, R3463, B270)
+   |    |    |    |    |    | ['InfraredComboBox2', 'Infrared3', 'ComboBox2']
+   |    |    |    |    |    | child_window(title="Infrared", auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_stackedwidget.tabControl.groupInfrared.comboOutputFPS", control_type="ComboBox")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | ListBox - ''    (L0, T0, R0, B0)
+   |    |    |    |    |    |    | ['ListBox2']
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'fps'    (L3372, T248, R3403, B270)
+   |    |    |    |    |    | ['fps', 'fpsStatic', 'Static7']
+   |    |    |    |    |    | child_window(title="fps", auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_stackedwidget.tabControl.groupInfrared.label_35", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | ComboBox - 'Infrared'    (L3551, T248, R3622, B270)
+   |    |    |    |    |    | ['InfraredComboBox3', 'Infrared4', 'ComboBox3']
+   |    |    |    |    |    | child_window(title="Infrared", auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_stackedwidget.tabControl.groupInfrared.comboIntegralTime", control_type="ComboBox")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | ListBox - ''    (L0, T0, R0, B0)
+   |    |    |    |    |    |    | ['ListBox3']
+   |    |    |    |    | 
+   |    |    |    |    | GroupBox - 'Image'    (L3152, T315, R3668, B616)
+   |    |    |    |    | ['Image', 'ImageGroupBox', 'GroupBox15', 'Image0', 'Image1']
+   |    |    |    |    | child_window(title="Image", auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_stackedwidget.tabControl.groupBox_2", control_type="Group")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | ComboBox - 'Image'    (L3157, T387, R3288, B409)
+   |    |    |    |    |    | ['Image2', 'ImageComboBox', 'ComboBox4', 'ImageComboBox0', 'ImageComboBox1']
+   |    |    |    |    |    | child_window(title="Image", auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_stackedwidget.tabControl.groupBox_2.comboColorMode", control_type="ComboBox")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | ListBox - ''    (L0, T0, R0, B0)
+   |    |    |    |    |    |    | ['ListBox4']
+   |    |    |    |    |    | 
+   |    |    |    |    |    | CheckBox - 'Inverse'    (L3442, T339, R3512, B359)
+   |    |    |    |    |    | ['Inverse', 'InverseCheckBox', 'CheckBox3']
+   |    |    |    |    |    | child_window(title="Inverse", auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_stackedwidget.tabControl.groupBox_2.checkColorInverse", control_type="CheckBox")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | CheckBox - 'Mirror'    (L3522, T339, R3585, B359)
+   |    |    |    |    |    | ['CheckBox4', 'Mirror', 'MirrorCheckBox']
+   |    |    |    |    |    | child_window(title="Mirror", auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_stackedwidget.tabControl.groupBox_2.checkMirrorMode", control_type="CheckBox")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | CheckBox - 'Flip'    (L3602, T339, R3651, B359)
+   |    |    |    |    |    | ['Flip', 'CheckBox5', 'FlipCheckBox']
+   |    |    |    |    |    | child_window(title="Flip", auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_stackedwidget.tabControl.groupBox_2.checkFlipMode", control_type="CheckBox")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | CheckBox - 'D-Zoom'    (L3297, T339, R3360, B359)
+   |    |    |    |    |    | ['D-Zoom', 'CheckBox6', 'D-ZoomCheckBox']
+   |    |    |    |    |    | child_window(title="D-Zoom", auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_stackedwidget.tabControl.groupBox_2.checkDZoomEn", control_type="CheckBox")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | ComboBox - 'Image'    (L3372, T338, R3433, B360)
+   |    |    |    |    |    | ['Image3', 'ImageComboBox2', 'ComboBox5']
+   |    |    |    |    |    | child_window(title="Image", auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_stackedwidget.tabControl.groupBox_2.comboDZoomRatio", control_type="ComboBox")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | ListBox - ''    (L0, T0, R0, B0)
+   |    |    |    |    |    |    | ['ListBox5']
+   |    |    |    |    |    | 
+   |    |    |    |    |    | ComboBox - 'Image'    (L3302, T387, R3413, B409)
+   |    |    |    |    |    | ['Image4', 'ImageComboBox3', 'ComboBox6']
+   |    |    |    |    |    | child_window(title="Image", auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_stackedwidget.tabControl.groupBox_2.comboVideoRes", control_type="ComboBox")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | ListBox - ''    (L0, T0, R0, B0)
+   |    |    |    |    |    |    | ['ListBox6']
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'Video Res.'    (L3302, T365, R3413, B387)
+   |    |    |    |    |    | ['Video Res.Static', 'Static8', 'Video Res.']
+   |    |    |    |    |    | child_window(title="Video Res.", auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_stackedwidget.tabControl.groupBox_2.label_34", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | ComboBox - 'Image'    (L3262, T437, R3353, B459)
+   |    |    |    |    |    | ['Image5', 'ImageComboBox4', 'ComboBox7']
+   |    |    |    |    |    | child_window(title="Image", auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_stackedwidget.tabControl.groupBox_2.comboDNR", control_type="ComboBox")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | ListBox - ''    (L0, T0, R0, B0)
+   |    |    |    |    |    |    | ['ListBox7']
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'DNR'    (L3262, T415, R3353, B437)
+   |    |    |    |    |    | ['DNRStatic', 'DNR', 'Static9']
+   |    |    |    |    |    | child_window(title="DNR", auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_stackedwidget.tabControl.groupBox_2.label_36", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'DDE'    (L3367, T415, R3458, B437)
+   |    |    |    |    |    | ['Static10', 'DDEStatic', 'DDE']
+   |    |    |    |    |    | child_window(title="DDE", auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_stackedwidget.tabControl.groupBox_2.label_37", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | ComboBox - 'Image'    (L3367, T437, R3458, B459)
+   |    |    |    |    |    | ['Image6', 'ImageComboBox5', 'ComboBox8']
+   |    |    |    |    |    | child_window(title="Image", auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_stackedwidget.tabControl.groupBox_2.comboDDE", control_type="ComboBox")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | ListBox - ''    (L0, T0, R0, B0)
+   |    |    |    |    |    |    | ['ListBox8']
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'Sharpness'    (L3472, T415, R3563, B437)
+   |    |    |    |    |    | ['Static11', 'Sharpness', 'SharpnessStatic']
+   |    |    |    |    |    | child_window(title="Sharpness", auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_stackedwidget.tabControl.groupBox_2.label_38", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | ComboBox - 'Image'    (L3472, T437, R3563, B459)
+   |    |    |    |    |    | ['Image7', 'ImageComboBox6', 'ComboBox9']
+   |    |    |    |    |    | child_window(title="Image", auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_stackedwidget.tabControl.groupBox_2.comboSharpness", control_type="ComboBox")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | ListBox - ''    (L0, T0, R0, B0)
+   |    |    |    |    |    |    | ['ListBox9']
+   |    |    |    |    |    | 
+   |    |    |    |    |    | ComboBox - 'Image'    (L3427, T387, R3538, B409)
+   |    |    |    |    |    | ['Image8', 'ImageComboBox7', 'ComboBox10']
+   |    |    |    |    |    | child_window(title="Image", auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_stackedwidget.tabControl.groupBox_2.comboVideoMode", control_type="ComboBox")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | ListBox - ''    (L0, T0, R0, B0)
+   |    |    |    |    |    |    | ['ListBox10']
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'Video Mode'    (L3427, T365, R3538, B387)
+   |    |    |    |    |    | ['Video Mode', 'Static12', 'Video ModeStatic']
+   |    |    |    |    |    | child_window(title="Video Mode", auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_stackedwidget.tabControl.groupBox_2.label_39", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'HEQ Limit'    (L3157, T463, R3248, B485)
+   |    |    |    |    |    | ['HEQ Limit', 'HEQ LimitStatic', 'Static13']
+   |    |    |    |    |    | child_window(title="HEQ Limit", auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_stackedwidget.tabControl.groupBox_2.label_41", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | ComboBox - 'Image'    (L3157, T485, R3248, B507)
+   |    |    |    |    |    | ['Image9', 'ImageComboBox8', 'ComboBox11']
+   |    |    |    |    |    | child_window(title="Image", auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_stackedwidget.tabControl.groupBox_2.comboHEQLimit", control_type="ComboBox")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | ListBox - ''    (L0, T0, R0, B0)
+   |    |    |    |    |    |    | ['ListBox11']
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'Color Mode'    (L3157, T365, R3268, B387)
+   |    |    |    |    |    | ['Color Mode', 'Static14', 'Color ModeStatic']
+   |    |    |    |    |    | child_window(title="Color Mode", auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_stackedwidget.tabControl.groupBox_2.label_42", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | CheckBox - 'LAE'    (L3367, T486, R3409, B506)
+   |    |    |    |    |    | ['LAECheckBox', 'CheckBox7', 'LAE']
+   |    |    |    |    |    | child_window(title="LAE", auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_stackedwidget.tabControl.groupBox_2.checkLAE", control_type="CheckBox")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'Gamma'    (L3472, T463, R3563, B485)
+   |    |    |    |    |    | ['Static15', 'Gamma', 'GammaStatic']
+   |    |    |    |    |    | child_window(title="Gamma", auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_stackedwidget.tabControl.groupBox_2.label_43", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | ComboBox - 'Image'    (L3472, T485, R3563, B507)
+   |    |    |    |    |    | ['Image10', 'ImageComboBox9', 'ComboBox12']
+   |    |    |    |    |    | child_window(title="Image", auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_stackedwidget.tabControl.groupBox_2.comboGamma", control_type="ComboBox")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | ListBox - ''    (L0, T0, R0, B0)
+   |    |    |    |    |    |    | ['ListBox12']
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'Damping'    (L3573, T463, R3664, B485)
+   |    |    |    |    |    | ['Damping', 'Static16', 'DampingStatic']
+   |    |    |    |    |    | child_window(title="Damping", auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_stackedwidget.tabControl.groupBox_2.label_44", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | ComboBox - 'Image'    (L3573, T485, R3664, B507)
+   |    |    |    |    |    | ['Image11', 'ImageComboBox10', 'ComboBox13']
+   |    |    |    |    |    | child_window(title="Image", auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_stackedwidget.tabControl.groupBox_2.comboDamping", control_type="ComboBox")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | ListBox - ''    (L0, T0, R0, B0)
+   |    |    |    |    |    |    | ['ListBox13']
+   |    |    |    |    |    | 
+   |    |    |    |    |    | ComboBox - 'Image'    (L3553, T387, R3664, B409)
+   |    |    |    |    |    | ['Image12', 'ImageComboBox11', 'ComboBox14']
+   |    |    |    |    |    | child_window(title="Image", auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_stackedwidget.tabControl.groupBox_2.comboVideoCompare", control_type="ComboBox")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | ListBox - ''    (L0, T0, R0, B0)
+   |    |    |    |    |    |    | ['ListBox14']
+   |    |    |    |    |    | 
+   |    |    |    |    |    | CheckBox - 'V.C Box'    (L3553, T366, R3623, B386)
+   |    |    |    |    |    | ['V.C Box', 'CheckBox8', 'V.C BoxCheckBox']
+   |    |    |    |    |    | child_window(title="V.C Box", auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_stackedwidget.tabControl.groupBox_2.checkVideoCompare", control_type="CheckBox")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Button - 'Default'    (L3157, T338, R3248, B360)
+   |    |    |    |    |    | ['Button18', 'Default', 'DefaultButton']
+   |    |    |    |    |    | child_window(title="Default", auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_stackedwidget.tabControl.groupBox_2.btnImageDefault", control_type="Button")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | ComboBox - 'Image'    (L3572, T437, R3663, B459)
+   |    |    |    |    |    | ['Image13', 'ImageComboBox12', 'ComboBox15']
+   |    |    |    |    |    | child_window(title="Image", auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_stackedwidget.tabControl.groupBox_2.comboLinearPercent", control_type="ComboBox")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | ListBox - ''    (L0, T0, R0, B0)
+   |    |    |    |    |    |    | ['ListBox15']
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'Linear'    (L3572, T415, R3663, B437)
+   |    |    |    |    |    | ['Linear', 'Static17', 'LinearStatic']
+   |    |    |    |    |    | child_window(title="Linear", auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_stackedwidget.tabControl.groupBox_2.label_45", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | ComboBox - 'Image'    (L3157, T437, R3248, B459)
+   |    |    |    |    |    | ['Image14', 'ImageComboBox13', 'ComboBox16']
+   |    |    |    |    |    | child_window(title="Image", auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_stackedwidget.tabControl.groupBox_2.combo3DNR", control_type="ComboBox")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | ListBox - ''    (L0, T0, R0, B0)
+   |    |    |    |    |    |    | ['ListBox16']
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - '3DNR'    (L3157, T415, R3248, B437)
+   |    |    |    |    |    | ['Static18', '3DNRStatic', '3DNR']
+   |    |    |    |    |    | child_window(title="3DNR", auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_stackedwidget.tabControl.groupBox_2.label_46", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | CheckBox - 'HEQ Comp'    (L3262, T486, R3339, B506)
+   |    |    |    |    |    | ['HEQ Comp', 'HEQ CompCheckBox', 'CheckBox9']
+   |    |    |    |    |    | child_window(title="HEQ Comp", auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_stackedwidget.tabControl.groupBox_2.checkHEQComp", control_type="CheckBox")
+   |    |    |    |    | 
+   |    |    |    |    | GroupBox - 'ETC'    (L3152, T619, R3668, B697)
+   |    |    |    |    | ['ETC', 'GroupBox16', 'ETCGroupBox', 'ETC0', 'ETC1']
+   |    |    |    |    | child_window(title="ETC", auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_stackedwidget.tabControl.groupBox_8", control_type="Group")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'A.F ROI'    (L3472, T642, R3572, B664)
+   |    |    |    |    |    | ['A.F ROIStatic', 'A.F ROI', 'Static19']
+   |    |    |    |    |    | child_window(title="A.F ROI", auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_stackedwidget.tabControl.groupBox_8.label_31", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | ComboBox - 'ETC'    (L3367, T664, R3467, B686)
+   |    |    |    |    |    | ['ETCComboBox', 'ETC2', 'ComboBox17', 'ETCComboBox0', 'ETCComboBox1']
+   |    |    |    |    |    | child_window(title="ETC", auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_stackedwidget.tabControl.groupBox_8.comboCenterMark", control_type="ComboBox")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | ListBox - ''    (L0, T0, R0, B0)
+   |    |    |    |    |    |    | ['ListBox17']
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'Zoom Speed'    (L3157, T642, R3257, B664)
+   |    |    |    |    |    | ['Zoom Speed', 'Zoom SpeedStatic', 'Static20']
+   |    |    |    |    |    | child_window(title="Zoom Speed", auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_stackedwidget.tabControl.groupBox_8.label_10", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | ComboBox - 'ETC'    (L3262, T664, R3362, B686)
+   |    |    |    |    |    | ['ETCComboBox2', 'ETC3', 'ComboBox18']
+   |    |    |    |    |    | child_window(title="ETC", auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_stackedwidget.tabControl.groupBox_8.comboFocusSpeed", control_type="ComboBox")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | ListBox - ''    (L0, T0, R0, B0)
+   |    |    |    |    |    |    | ['ListBox18']
+   |    |    |    |    |    | 
+   |    |    |    |    |    | ComboBox - 'ETC'    (L3472, T664, R3572, B686)
+   |    |    |    |    |    | ['ETCComboBox3', 'ETC4', 'ComboBox19']
+   |    |    |    |    |    | child_window(title="ETC", auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_stackedwidget.tabControl.groupBox_8.comboAFROI", control_type="ComboBox")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | ListBox - ''    (L0, T0, R0, B0)
+   |    |    |    |    |    |    | ['ListBox19']
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'Focus Speed'    (L3262, T642, R3362, B664)
+   |    |    |    |    |    | ['Static21', 'Focus SpeedStatic', 'Focus Speed']
+   |    |    |    |    |    | child_window(title="Focus Speed", auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_stackedwidget.tabControl.groupBox_8.label_30", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'Center Mark'    (L3367, T642, R3467, B664)
+   |    |    |    |    |    | ['Center MarkStatic', 'Center Mark', 'Static22']
+   |    |    |    |    |    | child_window(title="Center Mark", auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_stackedwidget.tabControl.groupBox_8.label_29", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | ComboBox - 'ETC'    (L3157, T664, R3257, B686)
+   |    |    |    |    |    | ['ETCComboBox4', 'ETC5', 'ComboBox20']
+   |    |    |    |    |    | child_window(title="ETC", auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_stackedwidget.tabControl.groupBox_8.comboZoomSpeed", control_type="ComboBox")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | ListBox - ''    (L0, T0, R0, B0)
+   |    |    |    |    |    |    | ['ListBox20']
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Button - 'Save'    (L3583, T664, R3663, B686)
+   |    |    |    |    |    | ['SaveButton', 'Save', 'Button19']
+   |    |    |    |    |    | child_window(title="Save", auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_stackedwidget.tabControl.groupBox_8.btnSave", control_type="Button")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Button - 'Init.'    (L3583, T642, R3663, B664)
+   |    |    |    |    |    | ['Init.', 'Init.Button', 'Button20']
+   |    |    |    |    |    | child_window(title="Init.", auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_stackedwidget.tabControl.groupBox_8.btnInitialize", control_type="Button")
+   |    |    | 
+   |    |    | TabControl - 'Control'    (L3150, T85, R3609, B108)
+   |    |    | ['ControlTabControl', 'TabControl', 'Control', 'Control0', 'Control1']
+   |    |    | child_window(title="Control", auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_tabbar", control_type="Tab")
+   |    |    |    | 
+   |    |    |    | TabItem - 'Device'    (L3150, T85, R3216, B108)
+   |    |    |    | ['TabItem', 'DeviceTabItem', 'Device', 'TabItem0', 'TabItem1']
+   |    |    |    | child_window(title="Device", control_type="TabItem")
+   |    |    |    | 
+   |    |    |    | TabItem - 'Command'    (L3216, T85, R3289, B108)
+   |    |    |    | ['TabItem2', 'CommandTabItem', 'Command']
+   |    |    |    | child_window(title="Command", control_type="TabItem")
+   |    |    |    | 
+   |    |    |    | TabItem - 'Control'    (L3289, T85, R3362, B108)
+   |    |    |    | ['TabItem3', 'ControlTabItem', 'Control2']
+   |    |    |    | child_window(title="Control", control_type="TabItem")
+   |    |    |    | 
+   |    |    |    | TabItem - 'Special'    (L3362, T85, R3435, B108)
+   |    |    |    | ['TabItem4', 'Special', 'SpecialTabItem']
+   |    |    |    | child_window(title="Special", control_type="TabItem")
+   |    |    |    | 
+   |    |    |    | TabItem - 'Information'    (L3435, T85, R3536, B108)
+   |    |    |    | ['TabItem5', 'InformationTabItem', 'Information']
+   |    |    |    | child_window(title="Information", control_type="TabItem")
+   |    |    |    | 
+   |    |    |    | TabItem - 'Factory'    (L3536, T85, R3609, B108)
+   |    |    |    | ['TabItem6', 'Factory', 'FactoryTabItem']
+   |    |    |    | child_window(title="Factory", control_type="TabItem")
+   |    | 
+   |    | ComboBox - ''    (L2570, T85, R2670, B109)
+   |    | ['ComboBox21']
+   |    | child_window(auto_id="MainWindow.centralwidget.comboStream", control_type="ComboBox")
+   |    |    | 
+   |    |    | ListBox - ''    (L0, T0, R0, B0)
+   |    |    | ['ListBox21']
+   |    | 
+   |    | CheckBox - 'Interlace'    (L2410, T87, R2494, B107)
+   |    | ['CheckBox10', 'Interlace', 'InterlaceCheckBox']
+   |    | child_window(title="Interlace", auto_id="MainWindow.centralwidget.checkSrcInterlace", control_type="CheckBox")
+   |    | 
+   |    | Edit - '0x0'    (L2156, T85, R2246, B109)
+   |    | ['Edit3']
+   |    | child_window(title="0x0", auto_id="MainWindow.centralwidget.editResolution", control_type="Edit")
+   |    | 
+   |    | Edit - '0.00'    (L2092, T85, R2148, B109)
+   |    | ['Edit4']
+   |    | child_window(title="0.00", auto_id="MainWindow.centralwidget.editFPS", control_type="Edit")
+   |    | 
+   |    | Button - 'Conn'    (L2860, T85, R2925, B109)
+   |    | ['Conn', 'ConnButton', 'Button21']
+   |    | child_window(title="Conn", auto_id="MainWindow.centralwidget.btnRtspConn", control_type="Button")
+   |    | 
+   |    | Edit - ''    (L2680, T85, R2761, B109)
+   |    | ['Edit5']
+   |    | child_window(auto_id="MainWindow.centralwidget.editRtspID", control_type="Edit")
+   |    | 
+   |    | Edit - ''    (L2770, T85, R2851, B109)
+   |    | ['Edit6']
+   |    | child_window(auto_id="MainWindow.centralwidget.editRtspPW", control_type="Edit")

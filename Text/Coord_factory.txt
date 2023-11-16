@@ -1,0 +1,172 @@
+Control Identifiers:
+
+Dialog - 'NyxRemote_230516'    (L2080, T75, R3680, B975)
+['Dialog', 'NyxRemote_230516', 'NyxRemote_230516Dialog']
+child_window(title="NyxRemote_230516", auto_id="MainWindow", control_type="Window")
+   | 
+   | TitleBar - ''    (L2096, T47, R3680, B75)
+   | ['TitleBar']
+   |    | 
+   |    | Menu - '시스템'    (L2080, T52, R2102, B74)
+   |    | ['Menu', '시스템', '시스템Menu', '시스템0', '시스템1']
+   |    | child_window(title="시스템", auto_id="MenuBar", control_type="MenuBar")
+   |    |    | 
+   |    |    | MenuItem - '시스템'    (L2080, T52, R2102, B74)
+   |    |    | ['시스템2', 'MenuItem', '시스템MenuItem']
+   |    |    | child_window(title="시스템", control_type="MenuItem")
+   |    | 
+   |    | Button - '최소화'    (L3541, T45, R3588, B75)
+   |    | ['최소화', 'Button', '최소화Button', 'Button0', 'Button1']
+   |    | child_window(title="최소화", control_type="Button")
+   |    | 
+   |    | Button - '최대화'    (L3588, T45, R3634, B75)
+   |    | ['Button2', '최대화', '최대화Button']
+   |    | child_window(title="최대화", control_type="Button")
+   |    | 
+   |    | Button - '닫기'    (L3634, T45, R3681, B75)
+   |    | ['닫기', 'Button3', '닫기Button']
+   |    | child_window(title="닫기", control_type="Button")
+   | 
+   | GroupBox - ''    (L2080, T75, R3680, B975)
+   | ['GroupBox', 'GroupBox0', 'GroupBox1']
+   | child_window(auto_id="MainWindow.centralwidget", control_type="Group")
+   |    | 
+   |    | GroupBox - ''    (L2092, T111, R3134, B733)
+   |    | ['GroupBox2']
+   |    | child_window(auto_id="MainWindow.centralwidget.groupDrawImage", control_type="Group")
+   |    |    | 
+   |    |    | GroupBox - ''    (L2092, T111, R3133, B732)
+   |    |    | ['GroupBox3']
+   |    |    | child_window(auto_id="MainWindow.centralwidget.groupDrawImage.gridLayoutWidget", control_type="Group")
+   |    |    |    | 
+   |    |    |    | GroupBox - ''    (L2092, T111, R3133, B732)
+   |    |    |    | ['GroupBox4']
+   |    |    |    | child_window(auto_id="MainWindow.centralwidget.groupDrawImage.gridLayoutWidget.openGLWidget_DisplayImage", control_type="Group")
+   |    |    |    |    | 
+   |    |    |    |    | GroupBox - ''    (L2092, T111, R3134, B733)
+   |    |    |    |    | ['GroupBox5']
+   |    | 
+   |    | GroupBox - ''    (L2090, T735, R3672, B970)
+   |    | ['GroupBox6']
+   |    | child_window(auto_id="MainWindow.centralwidget.groupBox", control_type="Group")
+   |    |    | 
+   |    |    | Edit - ''    (L2093, T738, R3598, B967)
+   |    |    | ['Edit', 'Edit0', 'Edit1']
+   |    |    | child_window(auto_id="MainWindow.centralwidget.groupBox.editPacketView", control_type="Edit")
+   |    |    |    | 
+   |    |    |    | GroupBox - ''    (L2095, T740, R3579, B948)
+   |    |    |    | ['GroupBox7']
+   |    |    |    | child_window(auto_id="MainWindow.centralwidget.groupBox.editPacketView.qt_scrollarea_viewport", control_type="Group")
+   |    |    |    | 
+   |    |    |    | GroupBox - ''    (L2095, T948, R3579, B965)
+   |    |    |    | ['GroupBox8']
+   |    |    |    | child_window(auto_id="MainWindow.centralwidget.groupBox.editPacketView.qt_scrollarea_hcontainer", control_type="Group")
+   |    |    |    |    | 
+   |    |    |    |    | ScrollBar - ''    (L2095, T948, R3579, B965)
+   |    |    |    |    | ['ScrollBar', 'ScrollBar0', 'ScrollBar1']
+   |    |    |    | 
+   |    |    |    | GroupBox - ''    (L3579, T740, R3596, B948)
+   |    |    |    | ['Factory PasswordGroupBox', 'GroupBox9', 'Factory PasswordGroupBox0', 'Factory PasswordGroupBox1']
+   |    |    |    | child_window(auto_id="MainWindow.centralwidget.groupBox.editPacketView.qt_scrollarea_vcontainer", control_type="Group")
+   |    |    |    |    | 
+   |    |    |    |    | ScrollBar - ''    (L3579, T740, R3596, B948)
+   |    |    |    |    | ['ScrollBar2', 'Factory PasswordScrollBar']
+   |    |    | 
+   |    |    | Button - 'Clear'    (L3604, T767, R3669, B789)
+   |    |    | ['ClearButton', 'Button4', 'Clear']
+   |    |    | child_window(title="Clear", auto_id="MainWindow.centralwidget.groupBox.btnPacketViewClear", control_type="Button")
+   |    |    | 
+   |    |    | CheckBox - 'Time'    (L3604, T739, R3653, B759)
+   |    |    | ['TimeCheckBox', 'Time', 'CheckBox', 'CheckBox0', 'CheckBox1']
+   |    |    | child_window(title="Time", auto_id="MainWindow.centralwidget.groupBox.checkPacketViewTime", control_type="CheckBox")
+   |    | 
+   |    | Button - 'Capture'    (L3069, T85, R3134, B109)
+   |    | ['Button5', 'Capture', 'CaptureButton']
+   |    | child_window(title="Capture", auto_id="MainWindow.centralwidget.btnVideoCapture", control_type="Button")
+   |    | 
+   |    | GroupBox - ''    (L3150, T85, R3672, B732)
+   |    | ['Factory PasswordGroupBox2', 'GroupBox10']
+   |    | child_window(auto_id="MainWindow.centralwidget.tabPannel", control_type="Group")
+   |    |    | 
+   |    |    | Custom - ''    (L3152, T108, R3670, B730)
+   |    |    | ['Factory PasswordCustom', 'Custom']
+   |    |    | child_window(auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_stackedwidget", control_type="Custom")
+   |    |    |    | 
+   |    |    |    | GroupBox - ''    (L3152, T108, R3670, B730)
+   |    |    |    | ['Factory PasswordGroupBox3', 'GroupBox11']
+   |    |    |    | child_window(auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_stackedwidget.tabFactory", control_type="Group")
+   |    |    |    |    | 
+   |    |    |    |    | Button - 'OK'    (L3592, T138, R3623, B160)
+   |    |    |    |    | ['OKButton', 'Button6', 'OK']
+   |    |    |    |    | child_window(title="OK", auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_stackedwidget.tabFactory.btnFactoryPasswdOK", control_type="Button")
+   |    |    |    |    | 
+   |    |    |    |    | Edit - ''    (L3472, T138, R3586, B160)
+   |    |    |    |    | ['Edit2', 'Factory PasswordEdit']
+   |    |    |    |    | child_window(auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_stackedwidget.tabFactory.editFactoryPasswd", control_type="Edit")
+   |    |    |    |    | 
+   |    |    |    |    | Static - 'Factory Password'    (L3472, T118, R3613, B140)
+   |    |    |    |    | ['Static', 'Factory Password', 'Factory PasswordStatic']
+   |    |    |    |    | child_window(title="Factory Password", auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_stackedwidget.tabFactory.label_Password", control_type="Text")
+   |    |    | 
+   |    |    | TabControl - 'Factory'    (L3150, T85, R3609, B108)
+   |    |    | ['TabControl', 'FactoryTabControl', 'Factory', 'Factory0', 'Factory1']
+   |    |    | child_window(title="Factory", auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_tabbar", control_type="Tab")
+   |    |    |    | 
+   |    |    |    | TabItem - 'Device'    (L3150, T85, R3216, B108)
+   |    |    |    | ['TabItem', 'Device', 'DeviceTabItem', 'TabItem0', 'TabItem1']
+   |    |    |    | child_window(title="Device", control_type="TabItem")
+   |    |    |    | 
+   |    |    |    | TabItem - 'Command'    (L3216, T85, R3289, B108)
+   |    |    |    | ['TabItem2', 'Command', 'CommandTabItem']
+   |    |    |    | child_window(title="Command", control_type="TabItem")
+   |    |    |    | 
+   |    |    |    | TabItem - 'Control'    (L3289, T85, R3362, B108)
+   |    |    |    | ['TabItem3', 'Control', 'ControlTabItem']
+   |    |    |    | child_window(title="Control", control_type="TabItem")
+   |    |    |    | 
+   |    |    |    | TabItem - 'Special'    (L3362, T85, R3435, B108)
+   |    |    |    | ['Special', 'TabItem4', 'SpecialTabItem']
+   |    |    |    | child_window(title="Special", control_type="TabItem")
+   |    |    |    | 
+   |    |    |    | TabItem - 'Information'    (L3435, T85, R3536, B108)
+   |    |    |    | ['TabItem5', 'InformationTabItem', 'Information']
+   |    |    |    | child_window(title="Information", control_type="TabItem")
+   |    |    |    | 
+   |    |    |    | TabItem - 'Factory'    (L3536, T85, R3609, B108)
+   |    |    |    | ['FactoryTabItem', 'TabItem6', 'Factory2']
+   |    |    |    | child_window(title="Factory", control_type="TabItem")
+   |    | 
+   |    | ComboBox - ''    (L2570, T85, R2670, B109)
+   |    | ['ComboBox']
+   |    | child_window(auto_id="MainWindow.centralwidget.comboStream", control_type="ComboBox")
+   |    |    | 
+   |    |    | ListBox - ''    (L0, T0, R0, B0)
+   |    |    | ['ListBox']
+   |    |    |    | 
+   |    |    |    | ListItem - '8554/test'    (L0, T0, R640, B15)
+   |    |    |    | ['8554/test', 'ListItem', '8554/testListItem']
+   |    |    |    | child_window(title="8554/test", control_type="ListItem")
+   |    | 
+   |    | CheckBox - 'Interlace'    (L2410, T87, R2494, B107)
+   |    | ['Interlace', 'CheckBox2', 'InterlaceCheckBox']
+   |    | child_window(title="Interlace", auto_id="MainWindow.centralwidget.checkSrcInterlace", control_type="CheckBox")
+   |    | 
+   |    | Edit - '1280x720'    (L2156, T85, R2246, B109)
+   |    | ['Edit3']
+   |    | child_window(title="1280x720", auto_id="MainWindow.centralwidget.editResolution", control_type="Edit")
+   |    | 
+   |    | Edit - '30.00'    (L2092, T85, R2148, B109)
+   |    | ['Edit4']
+   |    | child_window(title="30.00", auto_id="MainWindow.centralwidget.editFPS", control_type="Edit")
+   |    | 
+   |    | Button - 'Conn'    (L2860, T85, R2925, B109)
+   |    | ['Conn', 'Button7', 'ConnButton']
+   |    | child_window(title="Conn", auto_id="MainWindow.centralwidget.btnRtspConn", control_type="Button")
+   |    | 
+   |    | Edit - ''    (L2680, T85, R2761, B109)
+   |    | ['Edit5']
+   |    | child_window(auto_id="MainWindow.centralwidget.editRtspID", control_type="Edit")
+   |    | 
+   |    | Edit - ''    (L2770, T85, R2851, B109)
+   |    | ['Edit6']
+   |    | child_window(auto_id="MainWindow.centralwidget.editRtspPW", control_type="Edit")

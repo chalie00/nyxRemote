@@ -1,0 +1,323 @@
+Control Identifiers:
+
+Dialog - 'NyxRemote_230516'    (L2080, T75, R3680, B975)
+['Dialog', 'NyxRemote_230516', 'NyxRemote_230516Dialog']
+child_window(title="NyxRemote_230516", auto_id="MainWindow", control_type="Window")
+   | 
+   | TitleBar - ''    (L2096, T47, R3680, B75)
+   | ['TitleBar']
+   |    | 
+   |    | Menu - '시스템'    (L2080, T52, R2102, B74)
+   |    | ['시스템Menu', '시스템', 'Menu', '시스템0', '시스템1']
+   |    | child_window(title="시스템", auto_id="MenuBar", control_type="MenuBar")
+   |    |    | 
+   |    |    | MenuItem - '시스템'    (L2080, T52, R2102, B74)
+   |    |    | ['MenuItem', '시스템MenuItem', '시스템2']
+   |    |    | child_window(title="시스템", control_type="MenuItem")
+   |    | 
+   |    | Button - '최소화'    (L3541, T45, R3588, B75)
+   |    | ['최소화Button', 'Button', '최소화', 'Button0', 'Button1']
+   |    | child_window(title="최소화", control_type="Button")
+   |    | 
+   |    | Button - '최대화'    (L3588, T45, R3634, B75)
+   |    | ['최대화Button', 'Button2', '최대화']
+   |    | child_window(title="최대화", control_type="Button")
+   |    | 
+   |    | Button - '닫기'    (L3634, T45, R3681, B75)
+   |    | ['닫기', 'Button3', '닫기Button']
+   |    | child_window(title="닫기", control_type="Button")
+   | 
+   | GroupBox - ''    (L2080, T75, R3680, B975)
+   | ['GroupBox', 'GroupBox0', 'GroupBox1']
+   | child_window(auto_id="MainWindow.centralwidget", control_type="Group")
+   |    | 
+   |    | GroupBox - ''    (L2092, T111, R3134, B733)
+   |    | ['GroupBox2']
+   |    | child_window(auto_id="MainWindow.centralwidget.groupDrawImage", control_type="Group")
+   |    |    | 
+   |    |    | GroupBox - ''    (L2092, T111, R3133, B732)
+   |    |    | ['GroupBox3']
+   |    |    | child_window(auto_id="MainWindow.centralwidget.groupDrawImage.gridLayoutWidget", control_type="Group")
+   |    |    |    | 
+   |    |    |    | GroupBox - ''    (L2092, T111, R3133, B732)
+   |    |    |    | ['GroupBox4']
+   |    |    |    | child_window(auto_id="MainWindow.centralwidget.groupDrawImage.gridLayoutWidget.openGLWidget_DisplayImage", control_type="Group")
+   |    |    |    |    | 
+   |    |    |    |    | GroupBox - ''    (L2092, T111, R3134, B733)
+   |    |    |    |    | ['GroupBox5']
+   |    | 
+   |    | GroupBox - ''    (L2090, T735, R3672, B970)
+   |    | ['GroupBox6']
+   |    | child_window(auto_id="MainWindow.centralwidget.groupBox", control_type="Group")
+   |    |    | 
+   |    |    | Edit - '[2023-11-15 11:39:16:732] [UDP S] NYX.GET#Where_is_NYX\n[2023-11-15 11:39:16:764] [UDP L] NYX.ACK#I_am_NYX=00:14:2D:67:D5:06;192.168.22.234;255.255.255.0;192.168.22.1;8.8.8.8;1.1.1.1;STATIC;NYX-SC640R;C-OPF40150300SD;20231106;1.08.a; NYX Test;80;39190;39290;8554/test;8554/test;8554/test\n[2023-11-15 11:39:36:265] [TCP S] NYX.ADM#quer_file=NyxManager.xml\n[2023-11-15 11:39:37:366] [TCP L] NYX.ACK#quer_file=NyxManager.xml;22764\n[2023-11-15 11:39:38:567] [TCP L] NYX.ACK#quer_file=successful\n[2023-11-15 11:39:39:285] [TCP L] NYX.ACK#cool_time=249697&infr_time=249850\n[2023-11-15 11:40:20:009] [TCP S] NYX.GET#boot_perc\n[2023-11-15 11:40:20:059] [TCP S] NYX.GET#cool_time\n[2023-11-15 11:40:20:059] [TCP L] NYX.ACK#boot_perc=100\n[2023-11-15 11:40:20:141] [TCP S] NYX.GET#cool_type\n[2023-11-15 11:40:20:142] [TCP L] NYX.ACK#cool_time=249697\n[2023-11-15 11:40:20:209] [TCP S] NYX.GET#extc_baud\n[2023-11-15 11:40:20:209] [TCP L] NYX.ACK#cool_type=cooled\n[2023-11-15 11:40:20:275] [TCP S] NYX.GET#fan0_stat\n[2023-11-15 11:40:20:276] [TCP L] NYX.ACK#extc_baud=57600\n[2023-11-15 11:40:20:325] [TCP S] NYX.GET#fan1_stat\n[2023-11-15 11:40:20:326] [TCP L] NYX.ACK#fan0_stat=ready\n[2023-11-15 11:40:20:408] [TCP S] NYX.GET#infr_bprf\n[2023-11-15 11:40:20:409] [TCP L] NYX.ACK#fan1_stat=ready\n[2023-11-15 11:40:20:475] [TCP S] NYX.GET#infr_bprm\n[2023-11-15 11:40:20:476] [TCP L] NYX.ACK#infr_bprf=set\n[2023-11-15 11:40:20:542] [TCP S] NYX.GET#infr_bprp\n[2023-11-15 11:40:20:543] [TCP L] NYX.ACK#infr_bprm=on\n[2023-11-15 11:40:20:593] [TCP S] NYX.GET#infr_bprs\n[2023-11-15 11:40:20:609] [TCP L] NYX.ACK#infr_bprp=0;0\n[2023-11-15 11:40:20:676] [TCP S] NYX.GET#infr_cale\n[2023-11-15 11:40:20:676] [TCP L] NYX.ACK#infr_bprs=set\n[2023-11-15 11:40:20:742] [TCP S] NYX.GET#infr_cali\n[2023-11-15 11:40:20:743] [TCP L] NYX.ACK#infr_cale=stop\n[2023-11-15 11:40:20:810] [TCP S] NYX.GET#infr_calm\n[2023-11-15 11:40:20:811] [TCP L] NYX.ACK#infr_cali=1\n[2023-11-15 11:40:20:876] [TCP S] NYX.GET#infr_fnum\n[2023-11-15 11:40:20:876] [TCP L] NYX.ACK#infr_calm=manual\n[2023-11-15 11:40:20:943] [TCP S] NYX.GET#infr_fpak\n[2023-11-15 11:40:20:944] [TCP L] NYX.ACK#infr_fnum=F4.00\n[2023-11-15 11:40:21:010] [TCP S] NYX.GET#infr_inta\n[2023-11-15 11:40:21:010] [TCP L] NYX.ACK#infr_fpak=78.20\n[2023-11-15 11:40:21:077] [TCP S] NYX.GET#infr_intt\n[2023-11-15 11:40:21:077] [TCP L] NYX.ACK#infr_inta=7000\n[2023-11-15 11:40:21:143] [TCP S] NYX.GET#infr_nucm\n[2023-11-15 11:40:21:144] [TCP L] NYX.ACK#infr_intt=6000\n[2023-11-15 11:40:21:210] [TCP S] NYX.GET#infr_nucs\n[2023-11-15 11:40:21:211] [TCP L] NYX.ACK#infr_nucm=mode1\n[2023-11-15 11:40:21:277] [TCP S] NYX.GET#infr_ofps\n[2023-11-15 11:40:21:278] [TCP L] NYX.ACK#infr_nucs=low\n[2023-11-15 11:40:21:343] [TCP S] NYX.GET#infr_outm\n[2023-11-15 11:40:21:344] [TCP L] NYX.ACK#infr_ofps=30\n[2023-11-15 11:40:21:413] [TCP S] NYX.GET#infr_size\n[2023-11-15 11:40:21:415] [TCP L] NYX.ACK#infr_outm=nuc\n[2023-11-15 11:40:21:480] [TCP S] NYX.GET#infr_stat\n[2023-11-15 11:40:21:482] [TCP L] NYX.ACK#infr_size=640;512\n[2023-11-15 11:40:21:547] [TCP S] NYX.GET#infr_time\n[2023-11-15 11:40:21:550] [TCP L] NYX.ACK#infr_stat=ready\n[2023-11-15 11:40:21:610] [TCP S] NYX.GET#isp0_3dnr\n[2023-11-15 11:40:21:611] [TCP L] NYX.ACK#infr_time=249850\n[2023-11-15 11:40:21:681] [TCP S] NYX.GET#isp0_agcl\n[2023-11-15 11:40:21:682] [TCP L] NYX.ACK#isp0_3dnr=5\n[2023-11-15 11:40:21:747] [TCP S] NYX.GET#isp0_agcm\n[2023-11-15 11:40:21:749] [TCP L] NYX.ACK#isp0_agcl=3\n[2023-11-15 11:40:21:813] [TCP S] NYX.GET#isp0_aheq\n[2023-11-15 11:40:21:814] [TCP L] NYX.ACK#isp0_agcm=default\n[2023-11-15 11:40:21:880] [TCP S] NYX.GET#isp0_aint\n[2023-11-15 11:40:21:881] [TCP L] NYX.ACK#isp0_aheq=mode1\n[2023-11-15 11:40:21:928] [TCP S] NYX.GET#isp0_bprc\n[2023-11-15 11:40:21:929] [TCP L] NYX.ACK#isp0_aint=on\n[2023-11-15 11:40:21:995] [TCP S] NYX.GET#isp0_bprh\n[2023-11-15 11:40:21:996] [TCP L] NYX.ACK#isp0_bprc=5\n[2023-11-15 11:40:22:061] [TCP S] NYX.GET#isp0_bprt\n[2023-11-15 11:40:22:062] [TCP L] NYX.ACK#isp0_bprh=off\n[2023-11-15 11:40:22:127] [TCP S] NYX.GET#isp0_cenc\n[2023-11-15 11:40:22:128] [TCP L] NYX.ACK#isp0_bprt=30\n[2023-11-15 11:40:22:194] [TCP S] NYX.GET#isp0_cenm\n[2023-11-15 11:40:22:195] [TCP L] NYX.ACK#isp0_cenc=green\n[2023-11-15 11:40:22:261] [TCP S] NYX.GET#isp0_coiv\n[2023-11-15 11:40:22:261] [TCP L] NYX.ACK#isp0_cenm=off\n[2023-11-15 11:40:22:328] [TCP S] NYX.GET#isp0_cosp\n[2023-11-15 11:40:22:328] [TCP L] NYX.ACK#isp0_coiv=white_hot\n[2023-11-15 11:40:22:378] [TCP S] NYX.GET#isp0_damp\n[2023-11-15 11:40:22:379] [TCP L] NYX.ACK#isp0_cosp=gray\n[2023-11-15 11:40:22:466] [TCP S] NYX.GET#isp0_ddel\n[2023-11-15 11:40:22:468] [TCP L] NYX.ACK#isp0_damp=2\n[2023-11-15 11:40:22:549] [TCP S] NYX.GET#isp0_dnrl\n[2023-11-15 11:40:22:552] [TCP L] NYX.ACK#isp0_ddel=0\n[2023-11-15 11:40:22:595] [TCP S] NYX.GET#isp0_dzen\n[2023-11-15 11:40:22:613] [TCP L] NYX.ACK#isp0_dnrl=0\n[2023-11-15 11:40:22:646] [TCP S] NYX.GET#isp0_dzra\n[2023-11-15 11:40:22:647] [TCP L] NYX.ACK#isp0_dzen=off\n[2023-11-15 11:40:22:713] [TCP S] NYX.GET#isp0_fgui\n[2023-11-15 11:40:22:714] [TCP L] NYX.ACK#isp0_dzra=1.00\n[2023-11-15 11:40:22:780] [TCP S] NYX.GET#isp0_flip\n[2023-11-15 11:40:22:781] [TCP L] NYX.ACK#isp0_fgui=off\n[2023-11-15 11:40:22:848] [TCP S] NYX.GET#isp0_frob\n[2023-11-15 11:40:22:850] [TCP L] NYX.ACK#isp0_flip=off\n[2023-11-15 11:40:22:913] [TCP S] NYX.GET#isp0_from\n[2023-11-15 11:40:22:914] [TCP L] NYX.ACK#isp0_frob=off\n[2023-11-15 11:40:22:980] [TCP S] NYX.GET#isp0_frox\n[2023-11-15 11:40:22:982] [TCP L] NYX.ACK#isp0_from=off\n[2023-11-15 11:40:23:047] [TCP S] NYX.GET#isp0_froy\n[2023-11-15 11:40:23:048] [TCP L] NYX.ACK#isp0_frox=1\n[2023-11-15 11:40:23:114] [TCP S] NYX.GET#isp0_frsx\n[2023-11-15 11:40:23:115] [TCP L] NYX.ACK#isp0_froy=8\n[2023-11-15 11:40:23:163] [TCP S] NYX.GET#isp0_frsy\n[2023-11-15 11:40:23:165] [TCP L] NYX.ACK#isp0_frsx=8\n[2023-11-15 11:40:23:230] [TCP S] NYX.GET#isp0_gamm\n[2023-11-15 11:40:23:232] [TCP L] NYX.ACK#isp0_frsy=16\n[2023-11-15 11:40:23:297] [TCP S] NYX.GET#isp0_guic\n[2023-11-15 11:40:23:299] [TCP L] NYX.ACK#isp0_gamm=4\n[2023-11-15 11:40:23:365] [TCP S] NYX.GET#isp0_guie\n[2023-11-15 11:40:23:366] [TCP L] NYX.ACK#isp0_guic=set\n[2023-11-15 11:40:23:413] [TCP S] NYX.GET#isp0_heqc\n[2023-11-15 11:40:23:413] [TCP L] NYX.ACK#isp0_guie=off\n[2023-11-15 11:40:23:479] [TCP S] NYX.GET#isp0_heql\n[2023-11-15 11:40:23:480] [TCP L] NYX.ACK#isp0_heqc=on\n[2023-11-15 11:40:23:546] [TCP S] NYX.GET#isp0_hstd\n[2023-11-15 11:40:23:547] [TCP L] NYX.ACK#isp0_heql=0\n[2023-11-15 11:40:23:613] [TCP S] NYX.GET#isp0_laee\n[2023-11-15 11:40:23:614] [TCP L] NYX.ACK#isp0_hstd=off\n[2023-11-15 11:40:23:679] [TCP S] NYX.GET#isp0_liwe\n[2023-11-15 11:40:23:681] [TCP L] NYX.ACK#isp0_laee=on\n[2023-11-15 11:40:23:746] [TCP S] NYX.GET#isp0_logo\n[2023-11-15 11:40:23:747] [TCP L] NYX.ACK#isp0_liwe=2\n[2023-11-15 11:40:23:813] [TCP S] NYX.GET#isp0_mirr\n[2023-11-15 11:40:23:814] [TCP L] NYX.ACK#isp0_logo=off\n[2023-11-15 11:40:23:880] [TCP S] NYX.GET#isp0_nucs\n[2023-11-15 11:40:23:881] [TCP L] NYX.ACK#isp0_mirr=off\n[2023-11-15 11:40:23:947] [TCP S] NYX.GET#isp0_osdi\n[2023-11-15 11:40:23:948] [TCP L] NYX.ACK#isp0_nucs=on\n[2023-11-15 11:40:23:996] [TCP S] NYX.GET#isp0_shrp\n[2023-11-15 11:40:23:997] [TCP L] NYX.ACK#isp0_osdi=off\n[2023-11-15 11:40:24:080] [TCP S] NYX.GET#isp0_stat\n[2023-11-15 11:40:24:081] [TCP L] NYX.ACK#isp0_shrp=3\n[2023-11-15 11:40:24:147] [TCP S] NYX.GET#isp0_vers\n[2023-11-15 11:40:24:148] [TCP L] NYX.ACK#isp0_stat=ready\n[2023-11-15 11:40:24:213] [TCP S] NYX.GET#isp0_vmod\n[2023-11-15 11:40:24:215] [TCP L] NYX.ACK#isp0_vers=20231106;0.72.a\n[2023-11-15 11:40:24:264] [TCP S] NYX.GET#isp0_vres\n[2023-11-15 11:40:24:264] [TCP L] NYX.ACK#isp0_vmod=pillar_box\n[2023-11-15 11:40:24:347] [TCP S] NYX.GET#lens_afex\n[2023-11-15 11:40:24:347] [TCP L] NYX.ACK#isp0_vres=1280x720\n[2023-11-15 11:40:24:413] [TCP S] NYX.GET#lens_afit\n[2023-11-15 11:40:24:414] [TCP L] NYX.ACK#lens_afex=stop\n[2023-11-15 11:40:24:479] [TCP S] NYX.GET#lens_afmd\n[2023-11-15 11:40:24:480] [TCP L] NYX.ACK#lens_afit=1\n[2023-11-15 11:40:24:546] [TCP S] NYX.GET#lens_afov\n[2023-11-15 11:40:24:547] [TCP L] NYX.ACK#lens_afmd=manual\n[2023-11-15 11:40:24:613] [TCP S] NYX.GET#lens_afro\n[2023-11-15 11:40:24:614] [TCP L] NYX.ACK#lens_afov=35.10;1.80\n[2023-11-15 11:40:24:680] [TCP S] NYX.GET#lens_cfov\n[2023-11-15 11:40:24:681] [TCP L] NYX.ACK#lens_afro=1/4\n[2023-11-15 11:40:24:747] [TCP S] NYX.GET#lens_fctl\n[2023-11-15 11:40:24:748] [TCP L] NYX.ACK#lens_cfov=35.10\n[2023-11-15 11:40:24:813] [TCP S] NYX.GET#lens_fdir\n[2023-11-15 11:40:24:814] [TCP L] NYX.ACK#lens_fctl=stop\n[2023-11-15 11:40:24:880] [TCP S] NYX.GET#lens_fnen\n[2023-11-15 11:40:24:881] [TCP L] NYX.ACK#lens_fdir=-17000\n[2023-11-15 11:40:24:947] [TCP S] NYX.GET#lens_fnum\n[2023-11-15 11:40:24:948] [TCP L] NYX.ACK#lens_fnen=-17000;10000\n[2023-11-15 11:40:25:014] [TCP S] NYX.GET#lens_fpos\n[2023-11-15 11:40:25:014] [TCP L] NYX.ACK#lens_fnum=F4.00\n[2023-11-15 11:40:25:080] [TCP S] NYX.GET#lens_fspd\n[2023-11-15 11:40:25:081] [TCP L] NYX.ACK#lens_fpos=-437\n[2023-11-15 11:40:25:147] [TCP S] NYX.GET#lens_stat\n[2023-11-15 11:40:25:148] [TCP L] NYX.ACK#lens_fspd=3\n[2023-11-15 11:40:25:213] [TCP S] NYX.GET#lens_temp\n[2023-11-15 11:40:25:214] [TCP L] NYX.ACK#lens_stat=ready\n[2023-11-15 11:40:25:281] [TCP S] NYX.GET#lens_type\n[2023-11-15 11:40:25:282] [TCP L] NYX.ACK#lens_temp=28.00\n[2023-11-15 11:40:25:349] [TCP S] NYX.GET#lens_wnen\n[2023-11-15 11:40:25:349] [TCP L] NYX.ACK#lens_type=C-OPF40150300SD\n[2023-11-15 11:40:25:414] [TCP S] NYX.GET#lens_wnmm\n[2023-11-15 11:40:25:415] [TCP L] NYX.ACK#lens_wnen=16003;33704\n[2023-11-15 11:40:25:481] [TCP S] NYX.GET#lens_zctl\n[2023-11-15 11:40:25:481] [TCP L] NYX.ACK#lens_wnmm=15;300\n[2023-11-15 11:40:25:531] [TCP S] NYX.GET#lens_zdir\n[2023-11-15 11:40:25:532] [TCP L] NYX.ACK#lens_zctl=stop\n[2023-11-15 11:40:25:614] [TCP S] NYX.GET#lens_zpos\n[2023-11-15 11:40:25:614] [TCP L] NYX.ACK#lens_zdir=16003\n[2023-11-15 11:40:25:680] [TCP S] NYX.GET#lens_zspd\n[2023-11-15 11:40:25:681] [TCP L] NYX.ACK#lens_zpos=16003\n[2023-11-15 11:40:25:732] [TCP S] NYX.GET#modl_type\n[2023-11-15 11:40:25:733] [TCP L] NYX.ACK#lens_zspd=3\n[2023-11-15 11:40:25:814] [TCP S] NYX.GET#netw_gyrp\n[2023-11-15 11:40:25:815] [TCP L] NYX.ACK#modl_type=NYX-SC640R\n[2023-11-15 11:40:25:882] [TCP S] NYX.GET#netw_http\n[2023-11-15 11:40:25:883] [TCP L] NYX.ACK#netw_gyrp=39290\n[2023-11-15 11:40:25:931] [TCP S] NYX.GET#netw_name\n[2023-11-15 11:40:25:932] [TCP L] NYX.ACK#netw_http=80\n[2023-11-15 11:40:25:999] [TCP S] NYX.GET#netw_rtsp\n[2023-11-15 11:40:25:999] [TCP L] NYX.ACK#netw_name= NYX Test\n[2023-11-15 11:40:26:065] [TCP S] NYX.GET#netw_tcpp\n[2023-11-15 11:40:26:066] [TCP L] NYX.ACK#netw_rtsp=8554/test\n[2023-11-15 11:40:26:132] [TCP S] NYX.GET#netw_udpp\n[2023-11-15 11:40:26:133] [TCP L] NYX.ACK#netw_tcpp=39190\n[2023-11-15 11:40:26:199] [TCP S] NYX.GET#syst_exec\n[2023-11-15 11:40:26:199] [TCP L] NYX.ACK#netw_udpp=39090\n[2023-11-15 11:40:26:265] [TCP S] NYX.GET#syst_stat\n[2023-11-15 11:40:26:266] [TCP L] NYX.ACK#syst_exec=initialize\n[2023-11-15 11:40:26:332] [TCP S] NYX.GET#syst_temp\n[2023-11-15 11:40:26:332] [TCP L] NYX.ACK#syst_stat=standby\n[2023-11-15 11:40:26:400] [TCP S] NYX.GET#syst_upgr\n[2023-11-15 11:40:26:400] [TCP L] NYX.ACK#syst_temp=34.38\n[2023-11-15 11:40:26:465] [TCP S] NYX.GET#syst_vers\n[2023-11-15 11:40:26:466] [TCP L] NYX.ACK#syst_upgr=execute\n[2023-11-15 11:40:26:517] [TCP L] NYX.ACK#syst_vers=20231106;1.08.a\n[2023-11-15 11:40:39:298] [TCP L] NYX.ACK#cool_time=249698&infr_time=249851\n[2023-11-15 11:41:39:302] [TCP L] NYX.ACK#cool_time=249699&infr_time=249852\n[2023-11-15 11:42:39:297] [TCP L] NYX.ACK#cool_time=249700&infr_time=249853\n[2023-11-15 11:43:39:296] [TCP L] NYX.ACK#cool_time=249701&infr_time=249854\n[2023-11-15 11:44:39:290] [TCP L] NYX.ACK#cool_time=249702&infr_time=249855\n[2023-11-15 11:45:39:294] [TCP L] NYX.ACK#cool_time=249703&infr_time=249856'    (L2093, T738, R3598, B967)
+   |    |    | ['Edit', 'Edit0', 'Edit1']
+   |    |    | child_window(title="[2023-11-15 11:39:16:732] [UDP S] NYX.GET#Where_is_NYX\n[2023-11-15 11:39:16:764] [UDP L] NYX.ACK#I_am_NYX=00:14:2D:67:D5:06;192.168.22.234;255.255.255.0;192.168.22.1;8.8.8.8;1.1.1.1;STATIC;NYX-SC640R;C-OPF40150300SD;20231106;1.08.a; NYX Test;80;39190;39290;8554/test;8554/test;8554/test\n[2023-11-15 11:39:36:265] [TCP S] NYX.ADM#quer_file=NyxManager.xml\n[2023-11-15 11:39:37:366] [TCP L] NYX.ACK#quer_file=NyxManager.xml;22764\n[2023-11-15 11:39:38:567] [TCP L] NYX.ACK#quer_file=successful\n[2023-11-15 11:39:39:285] [TCP L] NYX.ACK#cool_time=249697&infr_time=249850\n[2023-11-15 11:40:20:009] [TCP S] NYX.GET#boot_perc\n[2023-11-15 11:40:20:059] [TCP S] NYX.GET#cool_time\n[2023-11-15 11:40:20:059] [TCP L] NYX.ACK#boot_perc=100\n[2023-11-15 11:40:20:141] [TCP S] NYX.GET#cool_type\n[2023-11-15 11:40:20:142] [TCP L] NYX.ACK#cool_time=249697\n[2023-11-15 11:40:20:209] [TCP S] NYX.GET#extc_baud\n[2023-11-15 11:40:20:209] [TCP L] NYX.ACK#cool_type=cooled\n[2023-11-15 11:40:20:275] [TCP S] NYX.GET#fan0_stat\n[2023-11-15 11:40:20:276] [TCP L] NYX.ACK#extc_baud=57600\n[2023-11-15 11:40:20:325] [TCP S] NYX.GET#fan1_stat\n[2023-11-15 11:40:20:326] [TCP L] NYX.ACK#fan0_stat=ready\n[2023-11-15 11:40:20:408] [TCP S] NYX.GET#infr_bprf\n[2023-11-15 11:40:20:409] [TCP L] NYX.ACK#fan1_stat=ready\n[2023-11-15 11:40:20:475] [TCP S] NYX.GET#infr_bprm\n[2023-11-15 11:40:20:476] [TCP L] NYX.ACK#infr_bprf=set\n[2023-11-15 11:40:20:542] [TCP S] NYX.GET#infr_bprp\n[2023-11-15 11:40:20:543] [TCP L] NYX.ACK#infr_bprm=on\n[2023-11-15 11:40:20:593] [TCP S] NYX.GET#infr_bprs\n[2023-11-15 11:40:20:609] [TCP L] NYX.ACK#infr_bprp=0;0\n[2023-11-15 11:40:20:676] [TCP S] NYX.GET#infr_cale\n[2023-11-15 11:40:20:676] [TCP L] NYX.ACK#infr_bprs=set\n[2023-11-15 11:40:20:742] [TCP S] NYX.GET#infr_cali\n[2023-11-15 11:40:20:743] [TCP L] NYX.ACK#infr_cale=stop\n[2023-11-15 11:40:20:810] [TCP S] NYX.GET#infr_calm\n[2023-11-15 11:40:20:811] [TCP L] NYX.ACK#infr_cali=1\n[2023-11-15 11:40:20:876] [TCP S] NYX.GET#infr_fnum\n[2023-11-15 11:40:20:876] [TCP L] NYX.ACK#infr_calm=manual\n[2023-11-15 11:40:20:943] [TCP S] NYX.GET#infr_fpak\n[2023-11-15 11:40:20:944] [TCP L] NYX.ACK#infr_fnum=F4.00\n[2023-11-15 11:40:21:010] [TCP S] NYX.GET#infr_inta\n[2023-11-15 11:40:21:010] [TCP L] NYX.ACK#infr_fpak=78.20\n[2023-11-15 11:40:21:077] [TCP S] NYX.GET#infr_intt\n[2023-11-15 11:40:21:077] [TCP L] NYX.ACK#infr_inta=7000\n[2023-11-15 11:40:21:143] [TCP S] NYX.GET#infr_nucm\n[2023-11-15 11:40:21:144] [TCP L] NYX.ACK#infr_intt=6000\n[2023-11-15 11:40:21:210] [TCP S] NYX.GET#infr_nucs\n[2023-11-15 11:40:21:211] [TCP L] NYX.ACK#infr_nucm=mode1\n[2023-11-15 11:40:21:277] [TCP S] NYX.GET#infr_ofps\n[2023-11-15 11:40:21:278] [TCP L] NYX.ACK#infr_nucs=low\n[2023-11-15 11:40:21:343] [TCP S] NYX.GET#infr_outm\n[2023-11-15 11:40:21:344] [TCP L] NYX.ACK#infr_ofps=30\n[2023-11-15 11:40:21:413] [TCP S] NYX.GET#infr_size\n[2023-11-15 11:40:21:415] [TCP L] NYX.ACK#infr_outm=nuc\n[2023-11-15 11:40:21:480] [TCP S] NYX.GET#infr_stat\n[2023-11-15 11:40:21:482] [TCP L] NYX.ACK#infr_size=640;512\n[2023-11-15 11:40:21:547] [TCP S] NYX.GET#infr_time\n[2023-11-15 11:40:21:550] [TCP L] NYX.ACK#infr_stat=ready\n[2023-11-15 11:40:21:610] [TCP S] NYX.GET#isp0_3dnr\n[2023-11-15 11:40:21:611] [TCP L] NYX.ACK#infr_time=249850\n[2023-11-15 11:40:21:681] [TCP S] NYX.GET#isp0_agcl\n[2023-11-15 11:40:21:682] [TCP L] NYX.ACK#isp0_3dnr=5\n[2023-11-15 11:40:21:747] [TCP S] NYX.GET#isp0_agcm\n[2023-11-15 11:40:21:749] [TCP L] NYX.ACK#isp0_agcl=3\n[2023-11-15 11:40:21:813] [TCP S] NYX.GET#isp0_aheq\n[2023-11-15 11:40:21:814] [TCP L] NYX.ACK#isp0_agcm=default\n[2023-11-15 11:40:21:880] [TCP S] NYX.GET#isp0_aint\n[2023-11-15 11:40:21:881] [TCP L] NYX.ACK#isp0_aheq=mode1\n[2023-11-15 11:40:21:928] [TCP S] NYX.GET#isp0_bprc\n[2023-11-15 11:40:21:929] [TCP L] NYX.ACK#isp0_aint=on\n[2023-11-15 11:40:21:995] [TCP S] NYX.GET#isp0_bprh\n[2023-11-15 11:40:21:996] [TCP L] NYX.ACK#isp0_bprc=5\n[2023-11-15 11:40:22:061] [TCP S] NYX.GET#isp0_bprt\n[2023-11-15 11:40:22:062] [TCP L] NYX.ACK#isp0_bprh=off\n[2023-11-15 11:40:22:127] [TCP S] NYX.GET#isp0_cenc\n[2023-11-15 11:40:22:128] [TCP L] NYX.ACK#isp0_bprt=30\n[2023-11-15 11:40:22:194] [TCP S] NYX.GET#isp0_cenm\n[2023-11-15 11:40:22:195] [TCP L] NYX.ACK#isp0_cenc=green\n[2023-11-15 11:40:22:261] [TCP S] NYX.GET#isp0_coiv\n[2023-11-15 11:40:22:261] [TCP L] NYX.ACK#isp0_cenm=off\n[2023-11-15 11:40:22:328] [TCP S] NYX.GET#isp0_cosp\n[2023-11-15 11:40:22:328] [TCP L] NYX.ACK#isp0_coiv=white_hot\n[2023-11-15 11:40:22:378] [TCP S] NYX.GET#isp0_damp\n[2023-11-15 11:40:22:379] [TCP L] NYX.ACK#isp0_cosp=gray\n[2023-11-15 11:40:22:466] [TCP S] NYX.GET#isp0_ddel\n[2023-11-15 11:40:22:468] [TCP L] NYX.ACK#isp0_damp=2\n[2023-11-15 11:40:22:549] [TCP S] NYX.GET#isp0_dnrl\n[2023-11-15 11:40:22:552] [TCP L] NYX.ACK#isp0_ddel=0\n[2023-11-15 11:40:22:595] [TCP S] NYX.GET#isp0_dzen\n[2023-11-15 11:40:22:613] [TCP L] NYX.ACK#isp0_dnrl=0\n[2023-11-15 11:40:22:646] [TCP S] NYX.GET#isp0_dzra\n[2023-11-15 11:40:22:647] [TCP L] NYX.ACK#isp0_dzen=off\n[2023-11-15 11:40:22:713] [TCP S] NYX.GET#isp0_fgui\n[2023-11-15 11:40:22:714] [TCP L] NYX.ACK#isp0_dzra=1.00\n[2023-11-15 11:40:22:780] [TCP S] NYX.GET#isp0_flip\n[2023-11-15 11:40:22:781] [TCP L] NYX.ACK#isp0_fgui=off\n[2023-11-15 11:40:22:848] [TCP S] NYX.GET#isp0_frob\n[2023-11-15 11:40:22:850] [TCP L] NYX.ACK#isp0_flip=off\n[2023-11-15 11:40:22:913] [TCP S] NYX.GET#isp0_from\n[2023-11-15 11:40:22:914] [TCP L] NYX.ACK#isp0_frob=off\n[2023-11-15 11:40:22:980] [TCP S] NYX.GET#isp0_frox\n[2023-11-15 11:40:22:982] [TCP L] NYX.ACK#isp0_from=off\n[2023-11-15 11:40:23:047] [TCP S] NYX.GET#isp0_froy\n[2023-11-15 11:40:23:048] [TCP L] NYX.ACK#isp0_frox=1\n[2023-11-15 11:40:23:114] [TCP S] NYX.GET#isp0_frsx\n[2023-11-15 11:40:23:115] [TCP L] NYX.ACK#isp0_froy=8\n[2023-11-15 11:40:23:163] [TCP S] NYX.GET#isp0_frsy\n[2023-11-15 11:40:23:165] [TCP L] NYX.ACK#isp0_frsx=8\n[2023-11-15 11:40:23:230] [TCP S] NYX.GET#isp0_gamm\n[2023-11-15 11:40:23:232] [TCP L] NYX.ACK#isp0_frsy=16\n[2023-11-15 11:40:23:297] [TCP S] NYX.GET#isp0_guic\n[2023-11-15 11:40:23:299] [TCP L] NYX.ACK#isp0_gamm=4\n[2023-11-15 11:40:23:365] [TCP S] NYX.GET#isp0_guie\n[2023-11-15 11:40:23:366] [TCP L] NYX.ACK#isp0_guic=set\n[2023-11-15 11:40:23:413] [TCP S] NYX.GET#isp0_heqc\n[2023-11-15 11:40:23:413] [TCP L] NYX.ACK#isp0_guie=off\n[2023-11-15 11:40:23:479] [TCP S] NYX.GET#isp0_heql\n[2023-11-15 11:40:23:480] [TCP L] NYX.ACK#isp0_heqc=on\n[2023-11-15 11:40:23:546] [TCP S] NYX.GET#isp0_hstd\n[2023-11-15 11:40:23:547] [TCP L] NYX.ACK#isp0_heql=0\n[2023-11-15 11:40:23:613] [TCP S] NYX.GET#isp0_laee\n[2023-11-15 11:40:23:614] [TCP L] NYX.ACK#isp0_hstd=off\n[2023-11-15 11:40:23:679] [TCP S] NYX.GET#isp0_liwe\n[2023-11-15 11:40:23:681] [TCP L] NYX.ACK#isp0_laee=on\n[2023-11-15 11:40:23:746] [TCP S] NYX.GET#isp0_logo\n[2023-11-15 11:40:23:747] [TCP L] NYX.ACK#isp0_liwe=2\n[2023-11-15 11:40:23:813] [TCP S] NYX.GET#isp0_mirr\n[2023-11-15 11:40:23:814] [TCP L] NYX.ACK#isp0_logo=off\n[2023-11-15 11:40:23:880] [TCP S] NYX.GET#isp0_nucs\n[2023-11-15 11:40:23:881] [TCP L] NYX.ACK#isp0_mirr=off\n[2023-11-15 11:40:23:947] [TCP S] NYX.GET#isp0_osdi\n[2023-11-15 11:40:23:948] [TCP L] NYX.ACK#isp0_nucs=on\n[2023-11-15 11:40:23:996] [TCP S] NYX.GET#isp0_shrp\n[2023-11-15 11:40:23:997] [TCP L] NYX.ACK#isp0_osdi=off\n[2023-11-15 11:40:24:080] [TCP S] NYX.GET#isp0_stat\n[2023-11-15 11:40:24:081] [TCP L] NYX.ACK#isp0_shrp=3\n[2023-11-15 11:40:24:147] [TCP S] NYX.GET#isp0_vers\n[2023-11-15 11:40:24:148] [TCP L] NYX.ACK#isp0_stat=ready\n[2023-11-15 11:40:24:213] [TCP S] NYX.GET#isp0_vmod\n[2023-11-15 11:40:24:215] [TCP L] NYX.ACK#isp0_vers=20231106;0.72.a\n[2023-11-15 11:40:24:264] [TCP S] NYX.GET#isp0_vres\n[2023-11-15 11:40:24:264] [TCP L] NYX.ACK#isp0_vmod=pillar_box\n[2023-11-15 11:40:24:347] [TCP S] NYX.GET#lens_afex\n[2023-11-15 11:40:24:347] [TCP L] NYX.ACK#isp0_vres=1280x720\n[2023-11-15 11:40:24:413] [TCP S] NYX.GET#lens_afit\n[2023-11-15 11:40:24:414] [TCP L] NYX.ACK#lens_afex=stop\n[2023-11-15 11:40:24:479] [TCP S] NYX.GET#lens_afmd\n[2023-11-15 11:40:24:480] [TCP L] NYX.ACK#lens_afit=1\n[2023-11-15 11:40:24:546] [TCP S] NYX.GET#lens_afov\n[2023-11-15 11:40:24:547] [TCP L] NYX.ACK#lens_afmd=manual\n[2023-11-15 11:40:24:613] [TCP S] NYX.GET#lens_afro\n[2023-11-15 11:40:24:614] [TCP L] NYX.ACK#lens_afov=35.10;1.80\n[2023-11-15 11:40:24:680] [TCP S] NYX.GET#lens_cfov\n[2023-11-15 11:40:24:681] [TCP L] NYX.ACK#lens_afro=1/4\n[2023-11-15 11:40:24:747] [TCP S] NYX.GET#lens_fctl\n[2023-11-15 11:40:24:748] [TCP L] NYX.ACK#lens_cfov=35.10\n[2023-11-15 11:40:24:813] [TCP S] NYX.GET#lens_fdir\n[2023-11-15 11:40:24:814] [TCP L] NYX.ACK#lens_fctl=stop\n[2023-11-15 11:40:24:880] [TCP S] NYX.GET#lens_fnen\n[2023-11-15 11:40:24:881] [TCP L] NYX.ACK#lens_fdir=-17000\n[2023-11-15 11:40:24:947] [TCP S] NYX.GET#lens_fnum\n[2023-11-15 11:40:24:948] [TCP L] NYX.ACK#lens_fnen=-17000;10000\n[2023-11-15 11:40:25:014] [TCP S] NYX.GET#lens_fpos\n[2023-11-15 11:40:25:014] [TCP L] NYX.ACK#lens_fnum=F4.00\n[2023-11-15 11:40:25:080] [TCP S] NYX.GET#lens_fspd\n[2023-11-15 11:40:25:081] [TCP L] NYX.ACK#lens_fpos=-437\n[2023-11-15 11:40:25:147] [TCP S] NYX.GET#lens_stat\n[2023-11-15 11:40:25:148] [TCP L] NYX.ACK#lens_fspd=3\n[2023-11-15 11:40:25:213] [TCP S] NYX.GET#lens_temp\n[2023-11-15 11:40:25:214] [TCP L] NYX.ACK#lens_stat=ready\n[2023-11-15 11:40:25:281] [TCP S] NYX.GET#lens_type\n[2023-11-15 11:40:25:282] [TCP L] NYX.ACK#lens_temp=28.00\n[2023-11-15 11:40:25:349] [TCP S] NYX.GET#lens_wnen\n[2023-11-15 11:40:25:349] [TCP L] NYX.ACK#lens_type=C-OPF40150300SD\n[2023-11-15 11:40:25:414] [TCP S] NYX.GET#lens_wnmm\n[2023-11-15 11:40:25:415] [TCP L] NYX.ACK#lens_wnen=16003;33704\n[2023-11-15 11:40:25:481] [TCP S] NYX.GET#lens_zctl\n[2023-11-15 11:40:25:481] [TCP L] NYX.ACK#lens_wnmm=15;300\n[2023-11-15 11:40:25:531] [TCP S] NYX.GET#lens_zdir\n[2023-11-15 11:40:25:532] [TCP L] NYX.ACK#lens_zctl=stop\n[2023-11-15 11:40:25:614] [TCP S] NYX.GET#lens_zpos\n[2023-11-15 11:40:25:614] [TCP L] NYX.ACK#lens_zdir=16003\n[2023-11-15 11:40:25:680] [TCP S] NYX.GET#lens_zspd\n[2023-11-15 11:40:25:681] [TCP L] NYX.ACK#lens_zpos=16003\n[2023-11-15 11:40:25:732] [TCP S] NYX.GET#modl_type\n[2023-11-15 11:40:25:733] [TCP L] NYX.ACK#lens_zspd=3\n[2023-11-15 11:40:25:814] [TCP S] NYX.GET#netw_gyrp\n[2023-11-15 11:40:25:815] [TCP L] NYX.ACK#modl_type=NYX-SC640R\n[2023-11-15 11:40:25:882] [TCP S] NYX.GET#netw_http\n[2023-11-15 11:40:25:883] [TCP L] NYX.ACK#netw_gyrp=39290\n[2023-11-15 11:40:25:931] [TCP S] NYX.GET#netw_name\n[2023-11-15 11:40:25:932] [TCP L] NYX.ACK#netw_http=80\n[2023-11-15 11:40:25:999] [TCP S] NYX.GET#netw_rtsp\n[2023-11-15 11:40:25:999] [TCP L] NYX.ACK#netw_name= NYX Test\n[2023-11-15 11:40:26:065] [TCP S] NYX.GET#netw_tcpp\n[2023-11-15 11:40:26:066] [TCP L] NYX.ACK#netw_rtsp=8554/test\n[2023-11-15 11:40:26:132] [TCP S] NYX.GET#netw_udpp\n[2023-11-15 11:40:26:133] [TCP L] NYX.ACK#netw_tcpp=39190\n[2023-11-15 11:40:26:199] [TCP S] NYX.GET#syst_exec\n[2023-11-15 11:40:26:199] [TCP L] NYX.ACK#netw_udpp=39090\n[2023-11-15 11:40:26:265] [TCP S] NYX.GET#syst_stat\n[2023-11-15 11:40:26:266] [TCP L] NYX.ACK#syst_exec=initialize\n[2023-11-15 11:40:26:332] [TCP S] NYX.GET#syst_temp\n[2023-11-15 11:40:26:332] [TCP L] NYX.ACK#syst_stat=standby\n[2023-11-15 11:40:26:400] [TCP S] NYX.GET#syst_upgr\n[2023-11-15 11:40:26:400] [TCP L] NYX.ACK#syst_temp=34.38\n[2023-11-15 11:40:26:465] [TCP S] NYX.GET#syst_vers\n[2023-11-15 11:40:26:466] [TCP L] NYX.ACK#syst_upgr=execute\n[2023-11-15 11:40:26:517] [TCP L] NYX.ACK#syst_vers=20231106;1.08.a\n[2023-11-15 11:40:39:298] [TCP L] NYX.ACK#cool_time=249698&infr_time=249851\n[2023-11-15 11:41:39:302] [TCP L] NYX.ACK#cool_time=249699&infr_time=249852\n[2023-11-15 11:42:39:297] [TCP L] NYX.ACK#cool_time=249700&infr_time=249853\n[2023-11-15 11:43:39:296] [TCP L] NYX.ACK#cool_time=249701&infr_time=249854\n[2023-11-15 11:44:39:290] [TCP L] NYX.ACK#cool_time=249702&infr_time=249855\n[2023-11-15 11:45:39:294] [TCP L] NYX.ACK#cool_time=249703&infr_time=249856", auto_id="MainWindow.centralwidget.groupBox.editPacketView", control_type="Edit")
+   |    |    |    | 
+   |    |    |    | GroupBox - ''    (L2095, T740, R3579, B948)
+   |    |    |    | ['GroupBox7']
+   |    |    |    | child_window(auto_id="MainWindow.centralwidget.groupBox.editPacketView.qt_scrollarea_viewport", control_type="Group")
+   |    |    |    | 
+   |    |    |    | GroupBox - ''    (L2095, T948, R3579, B965)
+   |    |    |    | ['GroupBox8']
+   |    |    |    | child_window(auto_id="MainWindow.centralwidget.groupBox.editPacketView.qt_scrollarea_hcontainer", control_type="Group")
+   |    |    |    |    | 
+   |    |    |    |    | ScrollBar - ''    (L2095, T948, R3579, B965)
+   |    |    |    |    | ['ScrollBar', 'ScrollBar0', 'ScrollBar1']
+   |    |    |    | 
+   |    |    |    | GroupBox - ''    (L3579, T740, R3596, B948)
+   |    |    |    | ['GroupBox9', '39190GroupBox']
+   |    |    |    | child_window(auto_id="MainWindow.centralwidget.groupBox.editPacketView.qt_scrollarea_vcontainer", control_type="Group")
+   |    |    |    |    | 
+   |    |    |    |    | ScrollBar - ''    (L3579, T740, R3596, B948)
+   |    |    |    |    | ['ScrollBar2', '39190ScrollBar']
+   |    |    | 
+   |    |    | Button - 'Clear'    (L3604, T767, R3669, B789)
+   |    |    | ['ClearButton', 'Clear', 'Button4']
+   |    |    | child_window(title="Clear", auto_id="MainWindow.centralwidget.groupBox.btnPacketViewClear", control_type="Button")
+   |    |    | 
+   |    |    | CheckBox - 'Time'    (L3604, T739, R3653, B759)
+   |    |    | ['TimeCheckBox', 'CheckBox', 'Time', 'CheckBox0', 'CheckBox1']
+   |    |    | child_window(title="Time", auto_id="MainWindow.centralwidget.groupBox.checkPacketViewTime", control_type="CheckBox")
+   |    | 
+   |    | Button - 'Capture'    (L3069, T85, R3134, B109)
+   |    | ['CaptureButton', 'Capture', 'Button5']
+   |    | child_window(title="Capture", auto_id="MainWindow.centralwidget.btnVideoCapture", control_type="Button")
+   |    | 
+   |    | GroupBox - ''    (L3150, T85, R3672, B732)
+   |    | ['GroupBox10', 'Model Type:GroupBox', 'Model Type:GroupBox0', 'Model Type:GroupBox1']
+   |    | child_window(auto_id="MainWindow.centralwidget.tabPannel", control_type="Group")
+   |    |    | 
+   |    |    | Custom - ''    (L3152, T108, R3670, B730)
+   |    |    | ['Custom', 'Model Type:Custom']
+   |    |    | child_window(auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_stackedwidget", control_type="Custom")
+   |    |    |    | 
+   |    |    |    | GroupBox - ''    (L3152, T108, R3670, B730)
+   |    |    |    | ['GroupBox11', 'Model Type:GroupBox2']
+   |    |    |    | child_window(auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_stackedwidget.tabInformation", control_type="Group")
+   |    |    |    |    | 
+   |    |    |    |    | GroupBox - 'Version'    (L3152, T108, R3668, B320)
+   |    |    |    |    | ['GroupBox12', 'Version', 'VersionGroupBox']
+   |    |    |    |    | child_window(title="Version", auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_stackedwidget.tabInformation.groupBox_3", control_type="Group")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'Model Type:'    (L3157, T131, R3277, B153)
+   |    |    |    |    |    | ['Model Type:Static', 'Static', 'Model Type:', 'Static0', 'Static1']
+   |    |    |    |    |    | child_window(title="Model Type:", auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_stackedwidget.tabInformation.groupBox_3.label_7", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'Lens Type:'    (L3157, T153, R3277, B175)
+   |    |    |    |    |    | ['Static2', 'Lens Type:', 'Lens Type:Static']
+   |    |    |    |    |    | child_window(title="Lens Type:", auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_stackedwidget.tabInformation.groupBox_3.label_8", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'System Version:'    (L3157, T175, R3277, B197)
+   |    |    |    |    |    | ['System Version:', 'System Version:Static', 'Static3']
+   |    |    |    |    |    | child_window(title="System Version:", auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_stackedwidget.tabInformation.groupBox_3.label_9", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'ISP Version:'    (L3157, T197, R3277, B219)
+   |    |    |    |    |    | ['ISP Version:Static', 'Static4', 'ISP Version:']
+   |    |    |    |    |    | child_window(title="ISP Version:", auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_stackedwidget.tabInformation.groupBox_3.label_12", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'NYX-SC640R'    (L3282, T131, R3432, B153)
+   |    |    |    |    |    | ['NYX-SC640R', 'Static5', 'NYX-SC640RStatic']
+   |    |    |    |    |    | child_window(title="NYX-SC640R", auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_stackedwidget.tabInformation.groupBox_3.labelModelType", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'C-OPF40150300SD'    (L3282, T153, R3432, B175)
+   |    |    |    |    |    | ['C-OPF40150300SDStatic', 'Static6', 'C-OPF40150300SD']
+   |    |    |    |    |    | child_window(title="C-OPF40150300SD", auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_stackedwidget.tabInformation.groupBox_3.labelLensType", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - '20231106;1.08.a'    (L3282, T175, R3432, B197)
+   |    |    |    |    |    | ['20231106;1.08.aStatic', 'Static7', '20231106;1.08.a']
+   |    |    |    |    |    | child_window(title="20231106;1.08.a", auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_stackedwidget.tabInformation.groupBox_3.labelSystemVersion", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - '20231106;0.72.a'    (L3282, T197, R3432, B219)
+   |    |    |    |    |    | ['20231106;0.72.aStatic', '20231106;0.72.a', 'Static8']
+   |    |    |    |    |    | child_window(title="20231106;0.72.a", auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_stackedwidget.tabInformation.groupBox_3.labelISPVersion", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | GroupBox - 'Status'    (L3152, T328, R3668, B518)
+   |    |    |    |    | ['GroupBox13', 'Status', 'StatusGroupBox']
+   |    |    |    |    | child_window(title="Status", auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_stackedwidget.tabInformation.groupBox_4", control_type="Group")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'System:'    (L3157, T351, R3237, B373)
+   |    |    |    |    |    | ['System:', 'Static9', 'System:Static']
+   |    |    |    |    |    | child_window(title="System:", auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_stackedwidget.tabInformation.groupBox_4.label_18", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'standby'    (L3242, T351, R3312, B373)
+   |    |    |    |    |    | ['standby', 'standbyStatic', 'Static10']
+   |    |    |    |    |    | child_window(title="standby", auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_stackedwidget.tabInformation.groupBox_4.labelSystemStat", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'ready'    (L3242, T395, R3312, B417)
+   |    |    |    |    |    | ['ready', 'readyStatic', 'Static11', 'ready0', 'ready1', 'readyStatic0', 'readyStatic1']
+   |    |    |    |    |    | child_window(title="ready", auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_stackedwidget.tabInformation.groupBox_4.labelIspStat", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'ISP:'    (L3157, T395, R3237, B417)
+   |    |    |    |    |    | ['ISP:Static', 'ISP:', 'Static12']
+   |    |    |    |    |    | child_window(title="ISP:", auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_stackedwidget.tabInformation.groupBox_4.label_20", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'Lens:'    (L3157, T373, R3237, B395)
+   |    |    |    |    |    | ['Lens:', 'Lens:Static', 'Static13']
+   |    |    |    |    |    | child_window(title="Lens:", auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_stackedwidget.tabInformation.groupBox_4.label_23", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'ready'    (L3242, T373, R3312, B395)
+   |    |    |    |    |    | ['ready2', 'readyStatic2', 'Static14']
+   |    |    |    |    |    | child_window(title="ready", auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_stackedwidget.tabInformation.groupBox_4.labelLensStat", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'ready'    (L3593, T351, R3663, B373)
+   |    |    |    |    |    | ['ready3', 'readyStatic3', 'Static15']
+   |    |    |    |    |    | child_window(title="ready", auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_stackedwidget.tabInformation.groupBox_4.labelFan0Stat", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'Fan 0:'    (L3507, T351, R3587, B373)
+   |    |    |    |    |    | ['Fan 0:Static', 'Static16', 'Fan 0:']
+   |    |    |    |    |    | child_window(title="Fan 0:", auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_stackedwidget.tabInformation.groupBox_4.label_25", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'ready'    (L3593, T373, R3663, B395)
+   |    |    |    |    |    | ['ready4', 'readyStatic4', 'Static17']
+   |    |    |    |    |    | child_window(title="ready", auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_stackedwidget.tabInformation.groupBox_4.labelFan1Stat", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'Fan 1:'    (L3507, T373, R3587, B395)
+   |    |    |    |    |    | ['Fan 1:Static', 'Static18', 'Fan 1:']
+   |    |    |    |    |    | child_window(title="Fan 1:", auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_stackedwidget.tabInformation.groupBox_4.label_26", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'B.P:'    (L3331, T373, R3411, B395)
+   |    |    |    |    |    | ['B.P:', 'Static19', 'B.P:Static']
+   |    |    |    |    |    | child_window(title="B.P:", auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_stackedwidget.tabInformation.groupBox_4.label_27", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - '100'    (L3416, T373, R3486, B395)
+   |    |    |    |    |    | ['100', '100Static', 'Static20']
+   |    |    |    |    |    | child_window(title="100", auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_stackedwidget.tabInformation.groupBox_4.labelBootPercentStat", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - '249856'    (L3416, T395, R3486, B417)
+   |    |    |    |    |    | ['249855', '249855Static', 'Static21']
+   |    |    |    |    |    | child_window(title="249856", auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_stackedwidget.tabInformation.groupBox_4.labelInfraredTimeStat", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'I.T:'    (L3331, T395, R3411, B417)
+   |    |    |    |    |    | ['I.T:Static', 'I.T:', 'Static22']
+   |    |    |    |    |    | child_window(title="I.T:", auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_stackedwidget.tabInformation.groupBox_4.label_28", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'ready'    (L3416, T351, R3486, B373)
+   |    |    |    |    |    | ['ready5', 'readyStatic5', 'Static23']
+   |    |    |    |    |    | child_window(title="ready", auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_stackedwidget.tabInformation.groupBox_4.labelInfraredStat", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'Infrared:'    (L3331, T351, R3411, B373)
+   |    |    |    |    |    | ['Static24', 'Infrared:', 'Infrared:Static']
+   |    |    |    |    |    | child_window(title="Infrared:", auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_stackedwidget.tabInformation.groupBox_4.label_51", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - '249704'    (L3592, T395, R3662, B417)
+   |    |    |    |    |    | ['249702', '249702Static', 'Static25']
+   |    |    |    |    |    | child_window(title="249704", auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_stackedwidget.tabInformation.groupBox_4.labelCoolerTimeStat", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'C.T:'    (L3506, T395, R3586, B417)
+   |    |    |    |    |    | ['Static26', 'C.T:', 'C.T:Static']
+   |    |    |    |    |    | child_window(title="C.T:", auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_stackedwidget.tabInformation.groupBox_4.label_52", control_type="Text")
+   |    |    |    |    | 
+   |    |    |    |    | GroupBox - 'Network'    (L3152, T526, R3668, B729)
+   |    |    |    |    | ['GroupBox14', 'Network', 'NetworkGroupBox', 'Network0', 'Network1']
+   |    |    |    |    | child_window(title="Network", auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_stackedwidget.tabInformation.groupBox_5", control_type="Group")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'Name:'    (L3157, T549, R3237, B571)
+   |    |    |    |    |    | ['Name:', 'Static27', 'Name:Static']
+   |    |    |    |    |    | child_window(title="Name:", auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_stackedwidget.tabInformation.groupBox_5.label_3", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - ' NYX Test'    (L3242, T549, R3312, B571)
+   |    |    |    |    |    | [' NYX TestStatic', 'Static28', ' NYX Test']
+   |    |    |    |    |    | child_window(title=" NYX Test", auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_stackedwidget.tabInformation.groupBox_5.labelNetworkName", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - '80'    (L3416, T571, R3486, B593)
+   |    |    |    |    |    | ['80', '80Static', 'Static29']
+   |    |    |    |    |    | child_window(title="80", auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_stackedwidget.tabInformation.groupBox_5.labelHttpPort", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'HTTP Port:'    (L3331, T571, R3411, B593)
+   |    |    |    |    |    | ['HTTP Port:Static', 'Static30', 'HTTP Port:']
+   |    |    |    |    |    | child_window(title="HTTP Port:", auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_stackedwidget.tabInformation.groupBox_5.label_4", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - '39190'    (L3593, T571, R3663, B593)
+   |    |    |    |    |    | ['39190', 'Static31', '39190Static']
+   |    |    |    |    |    | child_window(title="39190", auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_stackedwidget.tabInformation.groupBox_5.labelTcpPort", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'TCP Port:'    (L3507, T571, R3587, B593)
+   |    |    |    |    |    | ['TCP Port:Static', 'TCP Port:', 'Static32']
+   |    |    |    |    |    | child_window(title="TCP Port:", auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_stackedwidget.tabInformation.groupBox_5.label_5", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - '39090'    (L3242, T571, R3312, B593)
+   |    |    |    |    |    | ['39090Static', '39090', 'Static33']
+   |    |    |    |    |    | child_window(title="39090", auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_stackedwidget.tabInformation.groupBox_5.labelUdpPort", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'UDP Port:'    (L3157, T571, R3237, B593)
+   |    |    |    |    |    | ['UDP Port:', 'Static34', 'UDP Port:Static']
+   |    |    |    |    |    | child_window(title="UDP Port:", auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_stackedwidget.tabInformation.groupBox_5.label_6", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | Static - 'RTSP Addr:'    (L3331, T549, R3411, B571)
+   |    |    |    |    |    | ['RTSP Addr:Static', 'Static35', 'RTSP Addr:']
+   |    |    |    |    |    | child_window(title="RTSP Addr:", auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_stackedwidget.tabInformation.groupBox_5.label_13", control_type="Text")
+   |    |    |    |    |    | 
+   |    |    |    |    |    | ComboBox - 'Network'    (L3416, T549, R3663, B571)
+   |    |    |    |    |    | ['ComboBox', 'Network2', 'NetworkComboBox', 'ComboBox0', 'ComboBox1']
+   |    |    |    |    |    | child_window(title="Network", auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_stackedwidget.tabInformation.groupBox_5.comboRtspAddr", control_type="ComboBox")
+   |    |    |    |    |    |    | 
+   |    |    |    |    |    |    | ListBox - ''    (L0, T0, R0, B0)
+   |    |    |    |    |    |    | ['ListBox', 'ListBox0', 'ListBox1']
+   |    |    |    |    |    |    |    | 
+   |    |    |    |    |    |    |    | ListItem - '8554/test'    (L0, T0, R640, B15)
+   |    |    |    |    |    |    |    | ['ListItem', '8554/test', '8554/testListItem', 'ListItem0', 'ListItem1', '8554/test0', '8554/test1', '8554/testListItem0', '8554/testListItem1']
+   |    |    |    |    |    |    |    | child_window(title="8554/test", control_type="ListItem")
+   |    |    | 
+   |    |    | TabControl - 'Information'    (L3150, T85, R3609, B108)
+   |    |    | ['Information', 'InformationTabControl', 'TabControl', 'Information0', 'Information1']
+   |    |    | child_window(title="Information", auto_id="MainWindow.centralwidget.tabPannel.qt_tabwidget_tabbar", control_type="Tab")
+   |    |    |    | 
+   |    |    |    | TabItem - 'Device'    (L3150, T85, R3216, B108)
+   |    |    |    | ['TabItem', 'Device', 'DeviceTabItem', 'TabItem0', 'TabItem1']
+   |    |    |    | child_window(title="Device", control_type="TabItem")
+   |    |    |    | 
+   |    |    |    | TabItem - 'Command'    (L3216, T85, R3289, B108)
+   |    |    |    | ['Command', 'TabItem2', 'CommandTabItem']
+   |    |    |    | child_window(title="Command", control_type="TabItem")
+   |    |    |    | 
+   |    |    |    | TabItem - 'Control'    (L3289, T85, R3362, B108)
+   |    |    |    | ['TabItem3', 'ControlTabItem', 'Control']
+   |    |    |    | child_window(title="Control", control_type="TabItem")
+   |    |    |    | 
+   |    |    |    | TabItem - 'Special'    (L3362, T85, R3435, B108)
+   |    |    |    | ['TabItem4', 'SpecialTabItem', 'Special']
+   |    |    |    | child_window(title="Special", control_type="TabItem")
+   |    |    |    | 
+   |    |    |    | TabItem - 'Information'    (L3435, T85, R3536, B108)
+   |    |    |    | ['InformationTabItem', 'Information2', 'TabItem5']
+   |    |    |    | child_window(title="Information", control_type="TabItem")
+   |    |    |    | 
+   |    |    |    | TabItem - 'Factory'    (L3536, T85, R3609, B108)
+   |    |    |    | ['Factory', 'TabItem6', 'FactoryTabItem']
+   |    |    |    | child_window(title="Factory", control_type="TabItem")
+   |    | 
+   |    | ComboBox - ''    (L2570, T85, R2670, B109)
+   |    | ['ComboBox2']
+   |    | child_window(auto_id="MainWindow.centralwidget.comboStream", control_type="ComboBox")
+   |    |    | 
+   |    |    | ListBox - ''    (L0, T0, R0, B0)
+   |    |    | ['ListBox2']
+   |    |    |    | 
+   |    |    |    | ListItem - '8554/test'    (L0, T0, R640, B15)
+   |    |    |    | ['ListItem2', '8554/test2', '8554/testListItem2']
+   |    |    |    | child_window(title="8554/test", control_type="ListItem")
+   |    | 
+   |    | CheckBox - 'Interlace'    (L2410, T87, R2494, B107)
+   |    | ['CheckBox2', 'Interlace', 'InterlaceCheckBox']
+   |    | child_window(title="Interlace", auto_id="MainWindow.centralwidget.checkSrcInterlace", control_type="CheckBox")
+   |    | 
+   |    | Edit - '1280x720'    (L2156, T85, R2246, B109)
+   |    | ['Edit2']
+   |    | child_window(title="1280x720", auto_id="MainWindow.centralwidget.editResolution", control_type="Edit")
+   |    | 
+   |    | Edit - '30.00'    (L2092, T85, R2148, B109)
+   |    | ['Edit3']
+   |    | child_window(title="30.00", auto_id="MainWindow.centralwidget.editFPS", control_type="Edit")
+   |    | 
+   |    | Button - 'Conn'    (L2860, T85, R2925, B109)
+   |    | ['Button6', 'Conn', 'ConnButton']
+   |    | child_window(title="Conn", auto_id="MainWindow.centralwidget.btnRtspConn", control_type="Button")
+   |    | 
+   |    | Edit - ''    (L2680, T85, R2761, B109)
+   |    | ['Edit4']
+   |    | child_window(auto_id="MainWindow.centralwidget.editRtspID", control_type="Edit")
+   |    | 
+   |    | Edit - ''    (L2770, T85, R2851, B109)
+   |    | ['Edit5']
+   |    | child_window(auto_id="MainWindow.centralwidget.editRtspPW", control_type="Edit")
