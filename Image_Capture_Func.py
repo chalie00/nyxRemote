@@ -10,7 +10,7 @@ def cal_element_coordinate(left, top, right, bottom):
                  't': 0,
                  'r': 0,
                  'b': 0}
-    coordinate_array = cons.Dig_zero_Coordinate
+    coordinate_array = cons.float_zero_Coordinate
     ele_coord['l'] = left - coordinate_array[0]
     ele_coord['t'] = top - coordinate_array[1]
     ele_coord['r'] = right - coordinate_array[0]

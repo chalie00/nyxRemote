@@ -21,7 +21,7 @@
     <netw_name>
         <type>1011</type>
         <rstt>2</rstt>
-        <cval>" NYX Test"</cval>
+        <cval>"QT"</cval>
         <dval>"NYX Device"</dval>
         <vals>"0"</vals>
         <vmin>"0"</vmin>
@@ -93,7 +93,7 @@
     <cool_time>
         <type>1011</type>
         <rstt>0</rstt>
-        <cval>"247064"</cval>
+        <cval>"252752"</cval>
         <dval>"0"</dval>
         <vals>"0"</vals>
         <vmin>"0"</vmin>
@@ -138,7 +138,7 @@
     <syst_temp>
         <type>1011</type>
         <rstt>1</rstt>
-        <cval>"35.93"</cval>
+        <cval>"36.05"</cval>
         <dval>"-1.00"</dval>
         <vals>"0"</vals>
         <vmin>"0"</vmin>
@@ -201,7 +201,7 @@
     <lens_temp>
         <type>1011</type>
         <rstt>1</rstt>
-        <cval>"30.00"</cval>
+        <cval>"29.00"</cval>
         <dval>"-1.00"</dval>
         <vals>"0"</vals>
         <vmin>"0"</vmin>
@@ -318,7 +318,7 @@
     <lens_fpos>
         <type>1011</type>
         <rstt>1</rstt>
-        <cval>"-355"</cval>
+        <cval>"-262"</cval>
         <dval>"0"</dval>
         <vals>"0"</vals>
         <vmin>"0"</vmin>
@@ -354,7 +354,7 @@
     <lens_afmd>
         <type>1007</type>
         <rstt>1</rstt>
-        <cval>"manual"</cval>
+        <cval>"zoom-trigger"</cval>
         <dval>"manual"</dval>
         <vals>"manual;interval;zoom-trigger"</vals>
         <vmin>"0"</vmin>
@@ -390,7 +390,7 @@
     <infr_time>
         <type>1011</type>
         <rstt>0</rstt>
-        <cval>"247217"</cval>
+        <cval>"252905"</cval>
         <dval>"0"</dval>
         <vals>"0"</vals>
         <vmin>"0"</vmin>
@@ -561,7 +561,7 @@
     <isp0_vres>
         <type>1007</type>
         <rstt>1</rstt>
-        <cval>"1280x720"</cval>
+        <cval>"1920x1080"</cval>
         <dval>"1280x720"</dval>
         <vals>"720x576;1280x720;1280x1024;1920x1080"</vals>
         <vmin>"0"</vmin>
@@ -903,7 +903,7 @@
     <infr_inta>
         <type>1002</type>
         <rstt>1</rstt>
-        <cval>"7000"</cval>
+        <cval>"6000"</cval>
         <dval>"6000"</dval>
         <vals>"0"</vals>
         <vmin>"100"</vmin>

@@ -30,8 +30,10 @@ except (Exception,):
 
 mainDia = app['nyxremote_231106']
 # Save by txt after check an element identify
-# mainDia.print_control_identifiers(filename='Text\Element_ID.txt')
-
+# mf.get_app_zero_pos(mainDia)
+# # mainDia.print_control_identifiers(filename='Text\Element_ID.txt')
+#
+#
 # mainDia['Clear'].click()
 # time.sleep(1)
 # time_btn_status = mainDia['Time'].get_toggle_state()
@@ -71,40 +73,38 @@ mainDia = app['nyxremote_231106']
 #         cons.sys_device = i[151:160]
 #         cons.sys_rtsp_add = f'rtsp://{cons.sys_ip}:8554/test'
 #         mf.whether_popup_focus(device_popup, 'Discard')
-#         # time.sleep(1)
-#         mouse.move(coords=(3200, 170))
-#         # time.sleep(1)
-#         mouse.double_click(coords=(3200, 170))
+#         from_zero_scanned_device = mf.get_distance_from_zero(cons.scanned_only_one_device)
+#         time.sleep(1)
+#         mouse.move(coords=(from_zero_scanned_device['x'], from_zero_scanned_device['y']))
+#         time.sleep(1)
+#         mouse.double_click(coords=(from_zero_scanned_device['x'], from_zero_scanned_device['y']))
 #     else:
 #         print('Nyx is not exist')
 #
 # # Check whether network config pop-up
 # network_popup = app.window(title_re=f'{cons.sys_mac}')
 # mf.whether_popup_focus(network_popup, 'OK')
-# if mainDia['OK'].exists(timeout=3, retry_interval=1):
+# time.sleep(1)
+# if mainDia['OK'].exists(timeout=5, retry_interval=1):
 #     time.sleep(1)
 #     mainDia['OK'].click()
 
-# Execute xml and update in the command tab
+# # Execute xml and update in the command tab
 # cm.select_cmd_xml_update(mainDia)
 
-# count = 10000
-# while count >= 0:
-#     mainDia['Clear'].click()
-#     ctl.af_after_tele(mainDia, 18000)
-#     find_af_log = mf.check_char_in_bottom(mainDia, cons.find_af)
-#     if find_af_log == cons.find_af:
-#         mainDia.capture_as_image().save(f'Capture\{count - 1}.png')
-#         count = count - 1
-#     else:
-#         print('Tele af is not over')
-#
-#     mainDia['Clear'].click()
-#     ctl.af_after_wide(mainDia, 17000)
-#     find_af_log_sec = mf.check_char_in_bottom(mainDia, cons.find_af)
-#     if find_af_log_sec == cons.find_af:
-#         mainDia.capture_as_image().save(f'Capture\{count - 1}.png')
-#         count = count - 1
-#     else:
-#         print('Wide af is not over')
-ctl.loop_zoom_af_capture(mainDia, 1000)
+# ctl.loop_zoom_af_capture(mainDia, 10000, True, True,
+#                          cons.focus_enc_child, 8000, -14000,
+#                          cons.control_near, cons.control_far)
+
+osd_toggle = mainDia.child_window(title='On/Off', control_type='CheckBox').click_input()
+osd_menu_state = mainDia.child_window(title='On/Off', control_type='CheckBox').get_toggle_state()
+time.sleep(2)
+
+ctl.osd_control(mainDia, osd_menu_state, 'down')
+ctl.osd_control(mainDia, osd_menu_state, 'down')
+ctl.osd_control(mainDia, osd_menu_state, 'up')
+ctl.osd_control(mainDia, osd_menu_state, 'up')
+ctl.osd_control(mainDia, osd_menu_state, 'set')
+ctl.osd_control(mainDia, osd_menu_state, 'right')
+ctl.osd_control(mainDia, osd_menu_state, 'left')
+
